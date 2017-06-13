@@ -1,0 +1,416 @@
+/*
+couleur fond (bleu foncé) : #00101a
+couleur menu & cta (rose)) : #F92AC2
+couleur cadre(jaune)) : #FFFD10
+couleur titres (bleu): #00F4D9
+*/
+
+/* Helpers material-icons*/
+
+.material-icons.md-18 { font-size: 18px; }
+
+.material-icons.md-24 { font-size: 24px; }
+
+.material-icons.md-36 { font-size: 36px; }
+
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-60 { font-size: 60px; }
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+}
+
+header{
+	height: 90vh;
+	background-color: #00101a;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+header h1{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 100;
+	color: white;
+	text-rendering: optimizeLegibility;
+
+}
+.markup{
+	font-style: bold;
+	background-image: url("../img/masking-tape-yellow.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-size: 100% 100%;
+   font-weight: 500;
+   color:#00101a;
+   padding-right: px;
+   padding-left: 3px;
+}
+
+
+h1{
+  color: black;
+  font-size: 4rem;
+  letter-spacing: 0.1em;
+  text-rendering: optimizeLegibility;
+
+
+}
+
+h3{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding-bottom: 2rem;
+
+}
+
+p{
+	color: black;
+   font-weight: 200;
+   font-size: 2rem;
+
+}
+.material-icons{
+	vertical-align:text-top;
+
+}
+.modal-footer a i {
+	vertical-align:middle;
+}
+
+.tape{
+	 font-weight: normal;
+	 background-image: url("../img/masking-tape-yellow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+mark, mark strong{
+	background-color: transparent;
+	font-weight: bold;
+
+
+}
+strong {
+	font-weight: 100;
+}
+p strong {
+	font-weight: 100;
+}
+h2 strong {
+	font-weight: normal;
+}
+
+.btn {
+  text-transform: none !important;
+}
+
+
+/*********************************NAV*************************************************/
+nav {
+	background-color:#00101a;
+	opacity: 1;
+
+}
+
+nav .brand-logo{
+	padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+nav ul li {
+
+	line-height: 15px;
+	padding-left: 30px;
+	padding-right: 15px;
+}
+
+nav ul a {
+	font-size: 1.6rem;
+	padding:6px;
+}
+
+#mobile-menu {
+  z-index: 1000;
+}
+
+#sidenav-overlay {
+  z-index: 1;
+}
+
+.brand-logo{
+	padding: 15px;
+}
+
+.cta {
+  display: block;
+  margin: auto;
+  height: 6rem;
+  font-family: 'raleway', sans-serif;
+  font-size: 1.7rem;
+  color: black !important;
+  background-color: #F92AC2 !important;
+  box-shadow: 0.5rem 0.5rem 0rem #FFFD10;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-style: none;
+  border-radius: 0px;
+  text-transform: capitalize;
+}
+
+  .cta:hover {
+    box-shadow: 0rem 0rem 0rem #FFFD10;
+  }
+#up {
+  display: none;
+}
+  /************************************************** */
+  .div-cta {
+   /* width: 27rem;*/
+    margin: 0rem auto;
+    margin-bottom:6vh;
+
+  }
+
+  .btn cta {
+    display: block;
+    margin: 0 auto;
+    height: 6rem;
+    width: 20rem;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.7rem;
+    color: black !important;
+    background-color: #F92AC2!important;
+    box-shadow: 0.5rem 0.5rem 0rem #FFFD10;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-style: none;
+    border-radius: 0px;
+    text-transform: lowercase
+
+  }
+
+.sections {
+	margin-top:5rem;
+}
+
+/*********************************MODAL 1*************************************************/
+#modal{
+	background-color:#F92AC2;
+}
+#modal h2{
+	color: black !important;
+	font-size: 2rem;
+	letter-spacing: 0em;
+	padding-top: 2rem;
+
+}
+
+.sec2 {
+	margin-top:0rem;
+}
+
+.text-sec2 p {
+  color: black!important;
+  font-weight: ;
+  font-size: 2.7em;
+  line-height: 2.8rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.picto {
+  	width:50%;
+  	margin:auto;
+}
+
+
+/*****************************************MOTTO******************************************/
+#motto {
+	padding-top: 50px;
+
+
+}
+
+.collapsible-body p{
+	color: #00101a;
+}
+/*****************************************TESTIMONIAL******************************************/
+
+#us{
+		padding: 5rem;
+		margin-bottom: 0px;
+		margin-top: 30px;
+		background-color:#f92ac2;
+}
+#us h5+p{
+		font-size: 1.2rem;
+}
+
+/*****************************************OFFRE******************************************/
+#section-offre{
+	background-color:#F5F4F1;
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+#offre{
+
+}
+
+.collapsible h2{
+	 font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+	 color: black;
+
+}
+
+.collapsible-header{
+
+	background-color: transparent;
+	padding-top:;
+	border-style: none;
+	z-index: 0;
+
+}
+.collaps p{
+	 margin-bottom: 1rem;
+    font-size:2rem;
+    color: black !important;
+}
+.collapsible{
+
+	border-style: none;
+
+}
+.collapsible-body{
+	background-color: #F92AC2;
+	color:black;
+	font-size:2rem;
+	border-style: yellow;
+	font-weight: 100;
+
+}
+
+.clear{
+	cursor:pointer;
+}
+
+/****************************************CONTACT*****************************************/
+#section-contact{
+	background-color: #00F4D9;
+	padding-top: 10px;
+}
+#discuss{
+	margin-top: 5rem;
+
+}
+.divContact {
+  margin-top: 1rem;
+}
+
+
+#contact {
+  padding-bottom: 3rem;
+}
+
+  #contact div:nth-child(-n+4) {
+    display: block;
+    height: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: black;
+   /* border: 0.4rem solid #F92AC2;*/
+    color: #F92AC2;
+    font-size: 2rem;
+  }
+
+  #contact div:nth-child(0n+4) {
+    /*border: 0.4rem solid #00F4D9;*/
+  }
+
+  #contact div:nth-child(0n+4) {
+    margin-bottom: 4vh;
+  }
+
+  #contact div input {
+    font-size: 1.5rem;
+
+  }
+
+  #contact div textarea {
+    border-style: none;
+    font-size: 1.5rem;
+    height: 20vh;
+  }
+
+.feedback {
+  font-size: 2rem;
+  color: #00101a;
+}
+
+/***********************************FOOTER*****************************************************/
+
+.footer a, .footer a:active, .footer a:visited {
+   text-decoration: none;
+	color:black!important;
+	font-size:1.2rem;
+}
+
+.btn-flat{
+	 	color:black;
+	font-size:1.2rem;}
+
+#modal1 p{
+	color: black !important;
+}
+
+#modal1 h3{
+	color:#F92AC2;
+}
+#social a{
+	padding-left: 20px;
+}
+/***********************************MEDIA QUERIES<3********************************************/
+
+@media all and (min-width: 601px){
+
+	header h1{
+	font-size: 4rem;
+	}
+}
+@media all and (min-width: 801px){
+	
+    #contact div input, #contact div textarea {
+      font-size: 2rem;}
+    .picto {
+  	   width:40%;}
+  	 header h1{
+	font-size: 6rem;
+  }
+	}
+
+@media all and (min-width: 1200px){
+
+	 header h1{
+	font-size: 7rem;
+  }
+}
