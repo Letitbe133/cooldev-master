@@ -39,14 +39,14 @@
               <a href="#!" class="brand-logo left"><img class="responsive-img" src="assets/img/logo-v2.png" alt="logo cooldev" ></a>
               <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
+				    <li><a data-target="#offre" class="markup scrollTo" href="#section-offre">/ Offre</a></li>                
                 <li><a data-target="#motto" class="markup scrollTo" href="#motto">/ A propos</a></li>
-                <li><a data-target="#section-offre" class="markup scrollTo" href="#section-offre">/ Offres</a></li>
                 <li><a data-target="#section-contact" class="markup scrollTo" href="#section-contact">/ Contact</a></li>
 
               </ul>
            <ul class="side-nav" id="mobile-menu">
+           	  <li><a data-target="#offre" class="markup scrollTo" href="#offre">/ Offre</a></li>
               <li><a data-target="#motto" class="markup scrollTo" href="#motto">/ A propos</a></li>
-              <li><a data-target="#section-offre" class="markup scrollTo" href="#section-offre">/ Offres</a></li>
               <li><a data-target="#section-contact" class="markup scrollTo" href="#section-contact">/ Contact</a></li>
             </ul>
       		</div>
@@ -57,24 +57,52 @@
 		<div class="col s12 m12 l12">
                 <h1>Nous créons pour <br>vous et avec vous <br>des sites web<br><span class="markup">simples <br>et efficaces</span></h1>
 					<p style="color:white;">Le web n'attend que vous ;)</p>
-                <img data-target="#motto" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
+                <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
 
       </div>
 
     </div>
 	</header>
 
-  <div class="container">
+  
+  <!---*************************************OFFRE********************************-->
+	
+<section id="offre">        
+  	<div class="row">
+			<div class="picto-offre col s12 m12 l4 center-align">
+				<img class="responsive-img" src="assets/img/picto-perso.png" alt="" >
+				<p>lorem ipsum lorem lorem ipsum<p>  		
+  		</div>
+  		<div class="picto-offre col s12 m12 l4 center-align">
+				<img class="responsive-img" src="assets/img/picto-responsive.png" alt=""  >
+				<p>lorem ipsum lorem lorem ipsum<p>  		
+  		</div>
+  		<div class="picto-offre col s12 m12 l4 center-align">
+				<img class="responsive-img" src="assets/img/picto-pig.png" alt=""  >
+				<p>lorem ipsum lorem lorem ipsum<p>  		
+  		</div>
+  		<div class="col s12 ">
+         <div class="col s12 m12 l12 center-align">
+          	<p>A partir de</p> <h2>299 € ht.</h2>
+          </div>
+          <div class="div-cta">
+            <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
+          </div>
+      </div>
+</section>
+ 
   <!-- *************************************MOTTO********************************-->
+<div id="motiv">
+ <div class="container">
         <div id="motto">
-		  <div class="col s12">
+		  <div class="title col s12">
 		  		<h1><i id="illustration" style="color:black" class="material-icons medium">favorite_border</i>
-				Notre motivation</h1>
+				<span class="tape">Notre motivation</span></h1>
 			</div>
         </div>
 
         <div class="col s12">
-        	<h2><mark class="tape">Vous</mark></h2>
+        	<h2>Vous</h2>
           <p>Nous avons construit une offre pour les porteurs de projet. Pourquoi ? Parce que vous accompagner dans le développement de votre activité nous passionne. Nous avons beaucoup d'admiration pour ceux et celles qui ont le courage de créer leur entreprise, leur emploi et nous savons qu'au debut de cette aventure, vous avez peu de moyens et pouvez vous sentir perdu au sujet de la <strong>création de votre site web</strong>.</p>
 		  </div>
 		  <div class="col s12">
@@ -124,16 +152,24 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
             </ul>
           </div>
 </div>
+</div>
 <!-- *************************************TESTIMONIAL ********************************-->
+<div class="container">  
+		  <div id="testimonial">
+		  <div class="title col s12">
+		  		<h1><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
+				<span class="tape">L'équipe</span></h1>
+			</div>
+        </div>      
         <div class="row" id="us">
 
-         	<div class=" team col s12 m6 l6">
+         	<div class=" team col s12 m12 l6">
          	<div id="lio">
-            <div class="photo col s12 m6 l6 center-align ">
+            <div class="photo col s6 m6 l6 center-align ">
               <img class="photo" src="assets/img/lio.png" alt="Lionel, développeur web">
             </div>
 
-           		<div class="col s12 m6 l6">
+           		<div class="col s6 m6 l6">
            		<h4>Lionel</h4>
            		<h5>Développeur web</h5>
            		<p>CTO & Co-founder</p>
@@ -144,13 +180,13 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
               <p>Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
          	</div>
             </div>
-            <div class=" team col s12 m6 l6">
+            <div class=" team col s12 m12 l6">
            <div id="mi">
-            <div class="photo col s12 m6 l6 center-align">
+            <div class="photo col s6 m6 l6 center-align">
               <img class="photo " src="assets/img/mi.png" alt="Mylene, chargée de projet web">
             </div>
 
-           	<div class="col s12 m6 l6">
+           	<div class="col s6 m6 l6">
            		<h4>Mylène</h4>
            		<h5> Chargée de projets web</h5>
            		<p>CEO, CXO & Co-founder</p>
@@ -161,10 +197,10 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
             </div>
 			</div>
 		</div>
-      
+    </div>
 
 <!-- *************************************OFFRE ********************************-->
-<div class="row" id="section-offre">
+<!-- <div class="row" id="section-offre">
 	<div class="container">
         <div class="row" id="offre">
 				<div class="col s12 ">
@@ -173,7 +209,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 				</div>
         </div>
 <!-- *************************************OFFRE one-page********************************-->
-     <div class="col s12 m6 l6">
+ <!--    <div class="col s12 m6 l6">
      		<h2><mark class="tape">Une page web</mark> : vos coordonnées, présenter un service...</h2>
 
             <p>Faire simple et efficace, c'est notre devise. Vos clients ont besoin de vous trouver, connaitre vos horaires d'ouverture, votre numéro de téléphone ? En une page, tout est dit !</p>
@@ -213,8 +249,9 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 
 
       </div>
+-->
 <!-- *************************************OFFRE blog********************************-->
-	<div class="col s12 m6 l6">
+<!--	<div class="col s12 m6 l6">
      		<h2><mark class="tape">Un blog</mark> : créez du lien avec vos clients</h2>
          <p>Un <strong>blog</strong>, ça crée de la proximité avec vos clients et c'est bon pour votre référencement dans les moteurs de recherche. Simple à mettre à jour, nous vous accompagnons pour la prise en main.</p>
       </div>
@@ -253,9 +290,9 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 
 
        </div>
-
+-->
 <!-- *************************************OFFRE website********************************-->
-		<div class="col s12 m6 l6">
+	<!--	<div class="col s12 m6 l6">
      		<h2><mark class="tape">Un site de 4 pages</mark>: votre crédibilité</h2>
          <p>Plus d'infos, plus pro. Faire passer un message demande parfois un peu plus de contenu : l'histoire de votre entreprise, vos tarifs, un formulaire de contact...</p>
       </div>
@@ -294,9 +331,9 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 
 
 
-        </div>
+        </div>-->
 <!-- *************************************OFFRE sur-mesure********************************-->
-        <div class="col s12 m6 l6">
+ <!--       <div class="col s12 m6 l6">
      		<h2><span class="tape">Votre identité visuelle</span>, des <strong>cartes de visite</strong>, un <strong>site web personnalisé</strong>....</h2>
          <p>Tout à faire ou à refaire ? Pas de panique, on est là ! Avec une bonne dose de créativité et un soupçon de bon sens, notre team trouvera des solutions adaptées à votre budget</p>
       </div>
@@ -309,12 +346,12 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 
 
 	</div>
-</div>
+</div>-->
 <!-- *************************************CONTACT********************************-->
 <div id="section-contact">
 	<div class="container">
 		  <div id="discuss" class="row">
-				<div class="col s12">
+				<div class="title col s12">
 					<h1><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
 					<span class='tape'> Parlons-en !</span> </h1>
 				</div>
@@ -356,7 +393,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
    </div>
  
       <footer>
-      	 <div class="row">
+      	 <div class="row no-margin-bottom">
             <div class= "col s12 m3 center-align ">
              <a class="waves-effect waves-teal btn-flat" href="#" > Réalisé par <img src="assets/img/logoCooldev.png" width="25px;"></a>
             </div>

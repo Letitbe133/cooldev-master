@@ -244,33 +244,51 @@ nav ul a {
 
 /*****************************************MOTTO******************************************/
 #motto {
-	padding-top: 50px;
-
-
+	padding-top: 0px;
+	
+}
+.title h1 {
+	padding-bottom: 40px;
 }
 
+
+#motiv {
+	/*background-color:#f92ac2;*/
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 .collapsible-body p{
 	color: #00101a;
 }
 /*****************************************TESTIMONIAL******************************************/
 
+#testimonial {
+padding-top: 60px;
+}
 #us{
-		padding: 5rem;
-		margin-bottom: 0px;
-		margin-top: 30px;
-		background-color:#f92ac2;
+		
+
+		background-color:;
 }
 #us h5+p{
 		font-size: 1.2rem;
 }
-
+#lio {
+			padding-bottom: 30px;
+		   padding-top: 60px;
+}
+#mi {
+			padding-bottom: 30px;
+		   padding-top: 60px;
+}
 /*****************************************OFFRE******************************************/
-#section-offre{
+/*#section-offre{
 	background-color:#F5F4F1;
 	padding-top: 50px;
 	margin-bottom: 0px;
-}
-#offre{
+}*/
+.picto-offre{
+		padding-top: 60px!important;
 
 }
 
@@ -302,7 +320,7 @@ nav ul a {
 
 }
 .collapsible-body{
-	background-color: #F92AC2;
+	/*background-color: #00F4D9;*/
 	color:black;
 	font-size:2rem;
 	border-style: yellow;
@@ -316,7 +334,7 @@ nav ul a {
 
 /****************************************CONTACT*****************************************/
 #section-contact{
-	background-color: #00F4D9;
+	/*background-color: #00F4D9;*/
 	padding-top: 10px;
 }
 #discuss{
@@ -368,7 +386,11 @@ nav ul a {
 }
 
 /***********************************FOOTER*****************************************************/
+footer {
+	background-color: #00F4D9;
+	padding: 20px;
 
+}
 .footer a, .footer a:active, .footer a:visited {
    text-decoration: none;
 	color:black!important;
@@ -388,6 +410,9 @@ nav ul a {
 }
 #social a{
 	padding-left: 20px;
+}
+.no-margin-bottom {
+	margin-bottom: 0;
 }
 /***********************************MEDIA QUERIES<3********************************************/
 
