@@ -1,4 +1,4 @@
-<?php
+x<?php
   require_once('contact.php');
 ?>
 <!doctype html>
@@ -39,23 +39,23 @@
               <a href="#!" class="brand-logo left"><img class="responsive-img" src="assets/img/logo-v2.png" alt="logo cooldev" ></a>
               <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-				    <li><a data-target="#offre" class="markup scrollTo" href="#section-offre">/ Offre</a></li>                
-                <li><a data-target="#motto" class="markup scrollTo" href="#motto">/ A propos</a></li>
-                <li><a data-target="#section-contact" class="markup scrollTo" href="#section-contact">/ Contact</a></li>
+				    <li><a data-target="#offre" class="tape scrollTo" href="#section-offre">/ Offre</a></li>                
+                <li><a data-target="#motto" class="tape scrollTo" href="#motto">/ A propos</a></li>
+                <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ Contact</a></li>
 
               </ul>
-           <ul class="side-nav" id="mobile-menu">
-           	  <li><a data-target="#offre" class="markup scrollTo" href="#offre">/ Offre</a></li>
-              <li><a data-target="#motto" class="markup scrollTo" href="#motto">/ A propos</a></li>
-              <li><a data-target="#section-contact" class="markup scrollTo" href="#section-contact">/ Contact</a></li>
-            </ul>
+           		<ul class="side-nav" id="mobile-menu">
+	           	  <li><a data-target="#offre" class="tape scrollTo" href="#offre">/ Offre</a></li>
+	              <li><a data-target="#motto" class="tape scrollTo" href="#motto">/ A propos</a></li>
+	              <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ Contact</a></li>
+            	</ul>
       		</div>
           </nav>
     </div>
 	<header class="row valign-wrapper">
 		<div class="container center-align">
 		<div class="col s12 m12 l12">
-                <h1>Nous créons pour <br>vous et avec vous <br>des sites web<br><span class="markup">simples <br>et efficaces</span></h1>
+                <h1>Nous créons pour <br>vous et avec vous <br>des sites web<br><span class="tape">simples <br>et efficaces</span></h1>
 					<p style="color:white;">Le web n'attend que vous ;)</p>
                 <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
 
@@ -67,28 +67,30 @@
   
   <!---*************************************OFFRE********************************-->
 	
-<section id="offre">        
+<section id="offre">
+	       
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-perso.png" alt="" >
-				<p>lorem ipsum lorem lorem ipsum<p>  		
+				<p>Un site web qui s'adapte à vos besoins du moment<p>  		
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-responsive.png" alt=""  >
-				<p>lorem ipsum lorem lorem ipsum<p>  		
+				<p>Accessible sur tous supports<p>  		
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-pig.png" alt=""  >
-				<p>lorem ipsum lorem lorem ipsum<p>  		
+				<p>Maitrisez votre budget<p>  		
   		</div>
-  		<div class="col s12 ">
+  		<div id="call-to-action" class="col s12 ">
          <div class="col s12 m12 l12 center-align">
-          	<p>A partir de</p> <h2>299 € ht.</h2>
+          	<p>A partir de 299 € ht.</p>
           </div>
           <div class="div-cta">
             <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
           </div>
       </div>
+   
 </section>
  
   <!-- *************************************MOTTO********************************-->
@@ -96,8 +98,8 @@
  <div class="container">
         <div id="motto">
 		  <div class="title col s12">
-		  		<h1><i id="illustration" style="color:black" class="material-icons medium">favorite_border</i>
-				<span class="tape">Notre motivation</span></h1>
+		  		<h1><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">favorite_border</i>
+				Notre motivation</span></h1>
 			</div>
         </div>
 
@@ -154,13 +156,15 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 </div>
 </div>
 <!-- *************************************TESTIMONIAL ********************************-->
+<section class="section-testimonial">
 <div class="container">  
 		  <div id="testimonial">
 		  <div class="title col s12">
-		  		<h1><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
-				<span class="tape">L'équipe</span></h1>
+		  		<h1><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
+				L'équipe</span></h1>
 			</div>
-        </div>      
+        </div>
+         
         <div class="row" id="us">
 
          	<div class=" team col s12 m12 l6">
@@ -170,7 +174,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
             </div>
 
            		<div class="col s6 m6 l6">
-           		<h4>Lionel</h4>
+           		<h2>Lionel</h2>
            		<h5>Développeur web</h5>
            		<p>CTO & Co-founder</p>
            		</div>
@@ -187,7 +191,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
             </div>
 
            	<div class="col s6 m6 l6">
-           		<h4>Mylène</h4>
+           		<h2>Mylène</h2>
            		<h5> Chargée de projets web</h5>
            		<p>CEO, CXO & Co-founder</p>
            		</div>
@@ -198,7 +202,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 			</div>
 		</div>
     </div>
-
+</div>
 <!-- *************************************OFFRE ********************************-->
 <!-- <div class="row" id="section-offre">
 	<div class="container">
@@ -352,27 +356,27 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 	<div class="container">
 		  <div id="discuss" class="row">
 				<div class="title col s12">
-					<h1><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
-					<span class='tape'> Parlons-en !</span> </h1>
+					<h1><span class='tape'><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
+					 Parlons-en !</span> </h1>
 				</div>
         </div>
 
         <div class="divContact row" id="scrollContact">
           <h2 class="col s12 m12 l12">Une idée, un projet, un message ?<br/>C'est à vous !</h2>
           <form class="col s12" id="contact" action="#contact" method="POST">
-            <div class="input-field col s12 m12 l12">
+            <div class="markup input-field col s12 m12 l12">
               <i class="material-icons small prefix">account_box</i>
               <input class="validate" type="text" name="nom" placeholder="Votre nom">
             </div>
-            <div class="input-field col s12 m12 l12">
+            <div class="markup input-field col s12 m12 l12">
               <i class="material-icons small prefix">email</i>
               <input class="validate" type="email" name="email" placeholder="Votre email">
             </div>
-            <div class="input-field col s12 m12 l12">
+            <div class="markup input-field col s12 m12 l12">
               <i class="material-icons small prefix">subject</i>
               <input class="validate" type="text" name="objet" placeholder="Objet">
             </div>
-            <div class="input-field col s12 m12 l12">
+            <div class="tape input-field col s12 m12 l12">
               <i class="material-icons small prefix">mode_edit</i>
               <textarea class="materialize-textarea" name="message" rows="5" placeholder="Votre message"></textarea>
             </div>
@@ -395,10 +399,10 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
       <footer>
       	 <div class="row no-margin-bottom">
             <div class= "col s12 m3 center-align ">
-             <a class="waves-effect waves-teal btn-flat" href="#" > Réalisé par <img src="assets/img/logoCooldev.png" width="25px;"></a>
+            <a class="waves-effect waves-teal btn-flat" href="#" > <img src="assets/img/logoCooldev.png" width="25px;"></a>
             </div>
             <div class= "col s12 m3 center-align">
-              <a class="markup waves-effect waves-teal btn-flat" href="mailto:hello@cooldev.xyz">Hello[@]cooldev.xyz</a>
+              <a class="waves-effect waves-teal btn-flat" href="mailto:hello@cooldev.xyz">Hello[@]cooldev.xyz</a>
             </div>
             <div class= "col s12 m3 center-align">
               <!-- Modal -->

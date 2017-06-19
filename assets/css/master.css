@@ -22,9 +22,10 @@ couleur titres (bleu): #00F4D9
 html, body {
   margin: 0;
   padding: 0;
-  color: black;
+  color: white;
   font-size: 62.5%;
   box-sizing: border-box;
+  background-color: #00101a;
 
 }
 
@@ -47,7 +48,7 @@ header h1{
 }
 .markup{
 	font-style: bold;
-	background-image: url("../img/masking-tape-yellow.png");
+	background-image: url("../img/masking-tape-pink.png");
    background-repeat: no-repeat;
    background-size: cover;
    background-size: 100% 100%;
@@ -57,46 +58,54 @@ header h1{
    padding-left: 3px;
 }
 
-
-h1{
-  color: black;
-  font-size: 4rem;
-  letter-spacing: 0.1em;
-  text-rendering: optimizeLegibility;
-
-
-}
-
-h3{
-  color: black;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  padding-bottom: 2rem;
-
-}
-
-p{
-	color: black;
-   font-weight: 200;
-   font-size: 2rem;
-
-}
-.material-icons{
-	vertical-align:text-top;
-
-}
-.modal-footer a i {
-	vertical-align:middle;
-}
-
 .tape{
 	 font-weight: normal;
 	 background-image: url("../img/masking-tape-yellow.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
+    color:#00101a;
+    
 }
+
+h1{
+  color: #00101a;
+  font-size: 4rem;
+  letter-spacing: 0.1em;
+  text-rendering: optimizeLegibility;
+
+
+}
+h2 {
+	color:#00101a;
+}
+h3{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding-bottom: 2rem;
+
+}
+h5 {
+	color:#00101a;
+}
+p{
+	color: #00101a;
+   font-weight: 200;
+   font-size: 2rem;
+
+}
+.material-icons{
+	vertical-align:text-top;
+	color:#00101a!important;
+
+}
+.modal-footer a i {
+	vertical-align:middle;
+}
+
+
 
 mark, mark strong{
 	background-color: transparent;
@@ -248,27 +257,34 @@ nav ul a {
 	
 }
 .title h1 {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 
 #motiv {
-	/*background-color:#f92ac2;*/
+	background-color:white;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 .collapsible-body p{
 	color: #00101a;
 }
-/*****************************************TESTIMONIAL******************************************/
 
+.collapsible-header h4 {
+	color:#00101a;
+}
+/*****************************************TESTIMONIAL******************************************/
+.section-testimonial {
+	background-color: white;
+}
 #testimonial {
 padding-top: 60px;
+
 }
 #us{
 		
 
-		background-color:;
+		background-color:white;
 }
 #us h5+p{
 		font-size: 1.2rem;
@@ -289,9 +305,19 @@ padding-top: 60px;
 }*/
 .picto-offre{
 		padding-top: 60px!important;
+		padding-left: 50px!important;
+		padding-right: 50px!important;
 
 }
-
+#offre {
+	background-color: #00101a;
+}
+#offre p {
+	color:white;
+	font-size: 3rem;
+	padding-top: 30px;
+	
+}
 .collapsible h2{
 	 font-size: 3em;
     font-weight: bold;
@@ -331,10 +357,16 @@ padding-top: 60px;
 .clear{
 	cursor:pointer;
 }
-
+#call-to-action {
+	background-color: #00101a;
+}
+#call-to-action p{
+	font-size: 2rem;
+	padding-top: 0;
+}
 /****************************************CONTACT*****************************************/
 #section-contact{
-	/*background-color: #00F4D9;*/
+	background-color: white;
 	padding-top: 10px;
 }
 #discuss{
@@ -349,13 +381,16 @@ padding-top: 60px;
 #contact {
   padding-bottom: 3rem;
 }
-
-  #contact div:nth-child(-n+4) {
+input {
+    line-height: normal;
+    color: #00101a;
+}
+#contact div:nth-child(-n+4) {
     display: block;
     height: auto;
     margin-top: 2rem;
     padding: 2rem;
-    background-color: black;
+    background-color: ;
    /* border: 0.4rem solid #F92AC2;*/
     color: #F92AC2;
     font-size: 2rem;
@@ -387,18 +422,18 @@ padding-top: 60px;
 
 /***********************************FOOTER*****************************************************/
 footer {
-	background-color: #00F4D9;
+	background-color:  #00101a;
 	padding: 20px;
 
 }
 .footer a, .footer a:active, .footer a:visited {
    text-decoration: none;
-	color:black!important;
+	color:white!important;
 	font-size:1.2rem;
 }
 
 .btn-flat{
-	 	color:black;
+	 color:#00F4D9;
 	font-size:1.2rem;}
 
 #modal1 p{
