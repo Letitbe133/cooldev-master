@@ -1,4 +1,4 @@
-x<?php
+<?php
   require_once('contact.php');
 ?>
 <!doctype html>
@@ -37,9 +37,9 @@ x<?php
 		<nav>
           <div class="nav-wrapper">
               <a href="#!" class="brand-logo left"><img class="responsive-img" src="assets/img/logo-v2.png" alt="logo cooldev" ></a>
-              <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
+              <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons md-36">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-				    <li><a data-target="#offre" class="tape scrollTo" href="#section-offre">/ Offre</a></li>                
+				    <li><a data-target="#offre" class="tape scrollTo" href="#section-offre">/ Offre</a></li>
                 <li><a data-target="#motto" class="tape scrollTo" href="#motto">/ A propos</a></li>
                 <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ Contact</a></li>
 
@@ -64,23 +64,23 @@ x<?php
     </div>
 	</header>
 
-  
+
   <!---*************************************OFFRE********************************-->
-	
+
 <section id="offre">
-	       
+
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-perso.png" alt="" >
-				<p>Un site web qui s'adapte à vos besoins du moment<p>  		
+				<p>Un site web qui s'adapte à vos besoins du moment<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-responsive.png" alt=""  >
-				<p>Accessible sur tous supports<p>  		
+				<p>Accessible sur tous supports<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-pig.png" alt=""  >
-				<p>Maitrisez votre budget<p>  		
+				<p>Maitrisez votre budget<p>
   		</div>
   		<div id="call-to-action" class="col s12 ">
          <div class="col s12 m12 l12 center-align">
@@ -90,9 +90,9 @@ x<?php
             <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
           </div>
       </div>
-   
+
 </section>
- 
+
   <!-- *************************************MOTTO********************************-->
 <div id="motiv">
  <div class="container">
@@ -114,7 +114,7 @@ x<?php
                  <i style="color: #F92AC2" class="material-icons">keyboard_arrow_down</i><h4>En savoir plus</h4>
                 </div>
                 <div class="collapsible-body">
-                  	<div class="container">					
+                  	<div class="container">
 								<div class="row">
 										<h4 class="center-align"><br/><br/>Pourquoi votre présence numérique est indispensable ?<br/><br/></h4>
 
@@ -140,11 +140,11 @@ x<?php
 				            </div>
 				         	</div>
 				         	</div>
-				      
+
                   <span>Nous ne vous proposons pas les services d'une <strong>agence web</strong> classique parce que vous n'en avez pas vraiment  besoin pour le moment.  <mark>Ce dont vous avez besoin, c'est d'une <strong>présence sur le web efficace</strong></mark> qui vous permettra de <strong>trouver vos premiers clients</strong>. </br>
 Nous allons réaliser et mettre en place ensemble votre <strong>communication  digitale</strong> en optimisant chaque  élément qui la compose. <br/>
 En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce qui ne l’était pas encore !</mark>
-							
+
 
 						</span>
 						</div>
@@ -157,14 +157,14 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 </div>
 <!-- *************************************TESTIMONIAL ********************************-->
 <section class="section-testimonial">
-<div class="container">  
+<div class="container">
 		  <div id="testimonial">
 		  <div class="title col s12">
 		  		<h1><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
 				L'équipe</span></h1>
 			</div>
         </div>
-         
+
         <div class="row" id="us">
 
          	<div class=" team col s12 m12 l6">
@@ -395,7 +395,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
     	</div>
     	</div>
    </div>
- 
+
       <footer>
       	 <div class="row no-margin-bottom">
             <div class= "col s12 m3 center-align ">

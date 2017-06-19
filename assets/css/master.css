@@ -65,7 +65,7 @@ header h1{
     background-size: cover;
     background-size: 100% 100%;
     color:#00101a;
-    
+
 }
 
 h1{
@@ -154,6 +154,10 @@ nav ul li {
 nav ul a {
 	font-size: 1.6rem;
 	padding:6px;
+}
+
+.nav-wrapper a .material-icons {
+  color: white!important;
 }
 
 #mobile-menu {
@@ -254,7 +258,7 @@ nav ul a {
 /*****************************************MOTTO******************************************/
 #motto {
 	padding-top: 0px;
-	
+
 }
 .title h1 {
 	padding-bottom: 20px;
@@ -282,7 +286,7 @@ padding-top: 60px;
 
 }
 #us{
-		
+
 
 		background-color:white;
 }
@@ -316,7 +320,7 @@ padding-top: 60px;
 	color:white;
 	font-size: 3rem;
 	padding-top: 30px;
-	
+
 }
 .collapsible h2{
 	 font-size: 3em;
@@ -458,7 +462,7 @@ footer {
 	}
 }
 @media all and (min-width: 801px){
-	
+
     #contact div input, #contact div textarea {
       font-size: 2rem;}
     .picto {
