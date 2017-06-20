@@ -381,6 +381,10 @@ padding-top: 60px;
   margin-top: 1rem;
 }
 
+input[type="text"],input[type="email"], textarea.materialize-textarea {
+	border-bottom: 1px solid #00101a!important;
+	
+}
 
 #contact {
   padding-bottom: 3rem;
@@ -452,6 +456,9 @@ footer {
 }
 .no-margin-bottom {
 	margin-bottom: 0;
+}
+#heart a {
+	cursor:url("../img/heart.png"), auto;
 }
 /***********************************MEDIA QUERIES<3********************************************/
 

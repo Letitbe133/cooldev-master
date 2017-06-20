@@ -72,7 +72,7 @@
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-perso.png" alt="" >
-				<p>Un site web qui s'adapte à vos besoins du moment<p>
+				<p>Un site qui s'adapte à vos besoins<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-responsive.png" alt=""  >
@@ -80,7 +80,7 @@
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-pig.png" alt=""  >
-				<p>Maitrisez votre budget<p>
+				<p>Vous maitrisez votre budget<p>
   		</div>
   		<div id="call-to-action" class="col s12 ">
          <div class="col s12 m12 l12 center-align">
@@ -398,8 +398,8 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 
       <footer>
       	 <div class="row no-margin-bottom">
-            <div class= "col s12 m3 center-align ">
-            <a class="waves-effect waves-teal btn-flat" href="#" > <img src="assets/img/logoCooldev.png" width="25px;"></a>
+            <div id="heart" class= "col s12 m3 center-align ">
+            <a href="#" title="Site réalisé avec amour par l'équipe cooldev.xyz"> <img src="assets/img/logojaune.png" width="40px;" ></a>
             </div>
             <div class= "col s12 m3 center-align">
               <a class="waves-effect waves-teal btn-flat" href="mailto:hello@cooldev.xyz">Hello[@]cooldev.xyz</a>
