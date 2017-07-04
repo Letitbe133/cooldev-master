@@ -55,8 +55,8 @@
 	<header class="row valign-wrapper">
 		<div class="container center-align">
 		<div class="col s12 m12 l12">
-                <h1>Nous créons pour <br>vous et avec vous <br>des sites web<br><span class="tape">simples <br>et efficaces</span></h1>
-					<p style="color:white;">Le web n'attend que vous ;)</p>
+                <h1>Vous accompagner dans votre communication digitale</h1>
+					<p style="color:white;"><span class="tape">Le web n'attend que vous ;)</span></p>
                 <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
 
       </div>
@@ -71,16 +71,16 @@
 
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-perso.png" alt="" >
-				<p>Un site qui s'adapte à vos besoins<p>
+				<img class="responsive-img" src="assets/img/picto-puzzle.png" alt="" >
+				<p>Une approche globale<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-responsive.png" alt=""  >
-				<p>Accessible sur tous supports<p>
+				<img class="responsive-img" src="assets/img/picto-coop.png" alt=""  >
+				<p>Un accompagnement personnalisé<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-pig.png" alt=""  >
-				<p>Vous maitrisez votre budget<p>
+				<img class="responsive-img" src="assets/img/picto-pig-2.png" alt=""  >
+				<p>Un budget maîtrisé<p>
   		</div>
   		<div id="call-to-action" class="col s12 ">
          <div class="col s12 m12 l12 center-align">
@@ -90,7 +90,7 @@
             <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
           </div>
       </div>
-
+	</div>
 </section>
 
   <!-- *************************************MOTTO********************************-->
@@ -157,7 +157,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 </div>
 <!-- *************************************TESTIMONIAL ********************************-->
 <section class="section-testimonial">
-<div class="container">
+<div class="container ">
 		  <div id="testimonial">
 		  <div class="title col s12">
 		  		<h1><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
@@ -165,7 +165,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 			</div>
         </div>
 
-        <div class="row" id="us">
+        <div class="row no-margin-bottom" id="us">
 
          	<div class=" team col s12 m12 l6">
          	<div id="lio">
@@ -202,155 +202,8 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 			</div>
 		</div>
     </div>
-</div>
-<!-- *************************************OFFRE ********************************-->
-<!-- <div class="row" id="section-offre">
-	<div class="container">
-        <div class="row" id="offre">
-				<div class="col s12 ">
-					<h1><i id="illustration"style="color:black;" class="material-icons medium">important_devices</i>
-					 Votre projet </h1>
-				</div>
-        </div>
-<!-- *************************************OFFRE one-page********************************-->
- <!--    <div class="col s12 m6 l6">
-     		<h2><mark class="tape">Une page web</mark> : vos coordonnées, présenter un service...</h2>
+</section>
 
-            <p>Faire simple et efficace, c'est notre devise. Vos clients ont besoin de vous trouver, connaitre vos horaires d'ouverture, votre numéro de téléphone ? En une page, tout est dit !</p>
-      </div>
-     <div class="row">
-     	<div class="col s12 m6 l6 ">
-         <div class="col s12 m12 l12 center-align">
-          	<p>A partir de</p> <h2>199 € ht.</h2>
-          </div>
-          <div class="div-cta">
-            <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
-          </div>
-      </div>
-
-          <div class="col s12">
-            <ul class="collapsible z-depth-0" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header">
-                 <i style="color: #F92AC2" class="material-icons">keyboard_arrow_down</i><h4>En savoir plus</h4>
-                </div>
-                <div class="collapsible-body">
-                 <h4>Cette offre comprend : </h4>
-                  <ul>
-							<li><i class="material-icons">check</i>&nbsp&nbspUne page web avec votre logo, vos coordonnées, vos infos importantes</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspChoisissez votre design parmi les templates que nous vous proposons</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspDesign Responsive qui s'adapte à tous supports (mobiles, tablettes...)</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspHébergement et nom de domaine (en .fr) pour 1 an</li>
-						</ul>
-							<span><br><mark>Option</mark> : ajoutez autant de sections que vous le souhaitez, chaque section est facturée 99 € ht. seulement, de quoi vous faire un <strong>site One Page</strong> à votre image</span>
-
-                  <i style="float:right; color: black" class="material-icons clear">clear</i>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-
-
-      </div>
--->
-<!-- *************************************OFFRE blog********************************-->
-<!--	<div class="col s12 m6 l6">
-     		<h2><mark class="tape">Un blog</mark> : créez du lien avec vos clients</h2>
-         <p>Un <strong>blog</strong>, ça crée de la proximité avec vos clients et c'est bon pour votre référencement dans les moteurs de recherche. Simple à mettre à jour, nous vous accompagnons pour la prise en main.</p>
-      </div>
-      <div class="row">
-       <div class="col s12 m6 l6">
-         <div class="col s12 m12 l12 center-align">
-          	<p>A partir de</p> <h2>549 € ht.</h2>
-          </div>
-          <div class="div-cta">
-            <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
-          </div>
-       </div>
-
-          <div class="col s12">
-            <ul class="collapsible z-depth-0" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header">
-                  <i style="color: #F92AC2" class="material-icons">keyboard_arrow_down</i><h4>En savoir plus</h4>
-                </div>
-                 <div class="collapsible-body">
-                 <h4>Cette offre comprend : </h4>
-                  <ul>
-							<li><i class="material-icons">check</i>&nbsp&nbspMise en place et paramétrage du blog (nous utilisons le CMS Wordpress)</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspDesign Responsive qui s'adapte à tous supports (mobiles, tablettes...)</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspOptimisation pour les moteurs de recherche (SEO)</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspHébergement et nom de domaine (en .fr) pour 1 an </li>
-							<li><i class="material-icons">check</i>&nbsp&nbspUne formation de 2h pour prendre en main votre nouveau blog</li>
-						</ul>
-							<span><br><mark>Option</mark> : Mise en place d'un thème payant : +199 € ht.</span>
-
-                  <i style="float:right; color: black" class="material-icons clear">clear</i>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-
-       </div>
--->
-<!-- *************************************OFFRE website********************************-->
-	<!--	<div class="col s12 m6 l6">
-     		<h2><mark class="tape">Un site de 4 pages</mark>: votre crédibilité</h2>
-         <p>Plus d'infos, plus pro. Faire passer un message demande parfois un peu plus de contenu : l'histoire de votre entreprise, vos tarifs, un formulaire de contact...</p>
-      </div>
-       <div class="row">
-        <div class="col s12 m6 l6">
-          <div class="col s12 center-align">
-          	<p>A partir de</p> <h2>799 € ht.</h2>
-          </div>
-          <div class="div-cta">
-            <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
-          </div>
-        </div>
-          <div class="col s12">
-            <ul class="collapsible z-depth-0" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header">
-                  <i style="color: #F92AC2" class="material-icons">keyboard_arrow_down</i><h4>En savoir plus</h4>
-                </div>
-                <div class="collapsible-body">
-                 <h4>Cette offre comprend : </h4>
-                  <ul>
-							<li><i class="material-icons">check</i>&nbsp&nbspUne page d'accueil avec votre logo</li>
-							<li><i class="material-icons">check</i>&nbsp&nbsp3 pages supplémentaires que nous définissons ensemble </li>
-							<li><i class="material-icons">check</i>&nbsp&nbspChoisissez votre design parmi les templates que nous vous proposons</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspOptimisation pour les moteurs de recherche (SEO)</li>
-							<li><i class="material-icons">check</i>&nbsp&nbspHébergement et nom de domaine (en .fr) pour 1 an</li>
-						</ul>
-
-
-                  <i style="float:right; color: black" class="material-icons clear">clear</i>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-
-
-
-        </div>-->
-<!-- *************************************OFFRE sur-mesure********************************-->
- <!--       <div class="col s12 m6 l6">
-     		<h2><span class="tape">Votre identité visuelle</span>, des <strong>cartes de visite</strong>, un <strong>site web personnalisé</strong>....</h2>
-         <p>Tout à faire ou à refaire ? Pas de panique, on est là ! Avec une bonne dose de créativité et un soupçon de bon sens, notre team trouvera des solutions adaptées à votre budget</p>
-      </div>
-      <div class="col s12 m6 l6 center-align">
-           <h2>Sur devis</h2>
-          </div>
-          <div class="div-cta">
-            <button data-target="#section-contact" class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button>
-          </div>
-
-
-	</div>
-</div>-->
 <!-- *************************************CONTACT********************************-->
 <div id="section-contact">
 	<div class="container">

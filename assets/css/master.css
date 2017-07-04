@@ -282,35 +282,29 @@ nav ul a {
 	background-color: white;
 }
 #testimonial {
-padding-top: 60px;
+	padding-top: 60px;
 
 }
 #us{
-
-
-		background-color:white;
+	background-color:white;
 }
 #us h5+p{
-		font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 #lio {
-			padding-bottom: 30px;
-		   padding-top: 60px;
+	padding-bottom: 30px;
+	padding-top: 60px;
 }
 #mi {
-			padding-bottom: 30px;
-		   padding-top: 60px;
+	padding-bottom: 30px;
+	padding-top: 60px;
 }
 /*****************************************OFFRE******************************************/
-/*#section-offre{
-	background-color:#F5F4F1;
-	padding-top: 50px;
-	margin-bottom: 0px;
-}*/
+
 .picto-offre{
-		padding-top: 60px!important;
-		padding-left: 50px!important;
-		padding-right: 50px!important;
+	padding-top: 60px!important;
+	padding-left: 50px!important;
+	padding-right: 50px!important;
 
 }
 #offre {
@@ -323,16 +317,15 @@ padding-top: 60px;
 
 }
 .collapsible h2{
-	 font-size: 3em;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    line-height: 2em;
-	 color: black;
+	font-size: 3em;
+   font-weight: bold;
+   letter-spacing: 0.1em;
+   line-height: 2em;
+	color: black;
 
 }
 
 .collapsible-header{
-
 	background-color: transparent;
 	padding-top:;
 	border-style: none;
@@ -345,17 +338,13 @@ padding-top: 60px;
     color: black !important;
 }
 .collapsible{
-
 	border-style: none;
-
 }
 .collapsible-body{
-	/*background-color: #00F4D9;*/
 	color:black;
 	font-size:2rem;
 	border-style: yellow;
 	font-weight: 100;
-
 }
 
 .clear{
@@ -375,7 +364,6 @@ padding-top: 60px;
 }
 #discuss{
 	margin-top: 5rem;
-
 }
 .divContact {
   margin-top: 1rem;
@@ -385,44 +373,33 @@ input[type="text"],input[type="email"], textarea.materialize-textarea {
 	border-bottom: 1px solid #00101a!important;
 	
 }
-
 #contact {
-  padding-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 input {
-    line-height: normal;
-    color: #00101a;
+	line-height: normal;
+	color: #00101a;
 }
 #contact div:nth-child(-n+4) {
-    display: block;
-    height: auto;
-    margin-top: 2rem;
-    padding: 2rem;
-    background-color: ;
-   /* border: 0.4rem solid #F92AC2;*/
-    color: #F92AC2;
-    font-size: 2rem;
+	display: block;
+   height: auto;
+   margin-top: 2rem;
+   padding: 2rem;
+   color: #F92AC2;
+   font-size: 2rem;
+  }
+#contact div:nth-child(0n+4) {
+   margin-bottom: 4vh;
   }
 
-  #contact div:nth-child(0n+4) {
-    /*border: 0.4rem solid #00F4D9;*/
+#contact div input {
+   font-size: 1.5rem;
   }
-
-  #contact div:nth-child(0n+4) {
-    margin-bottom: 4vh;
+#contact div textarea {
+   border-style: none;
+   font-size: 1.5rem;
+   height: 20vh;
   }
-
-  #contact div input {
-    font-size: 1.5rem;
-
-  }
-
-  #contact div textarea {
-    border-style: none;
-    font-size: 1.5rem;
-    height: 20vh;
-  }
-
 .feedback {
   font-size: 2rem;
   color: #00101a;
@@ -432,22 +409,19 @@ input {
 footer {
 	background-color:  #00101a;
 	padding: 20px;
-
 }
 .footer a, .footer a:active, .footer a:visited {
    text-decoration: none;
 	color:white!important;
 	font-size:1.2rem;
 }
-
 .btn-flat{
-	 color:#00F4D9;
-	font-size:1.2rem;}
-
+	color:#00F4D9;
+	font-size:1.2rem;
+}
 #modal1 p{
 	color: black !important;
 }
-
 #modal1 h3{
 	color:#F92AC2;
 }
@@ -463,25 +437,25 @@ footer {
 /***********************************MEDIA QUERIES<3********************************************/
 
 @media all and (min-width: 601px){
-
 	header h1{
-	font-size: 4rem;
+		font-size: 4rem;
 	}
 }
 @media all and (min-width: 801px){
 
     #contact div input, #contact div textarea {
-      font-size: 2rem;}
+    	font-size: 2rem;
+    	}
     .picto {
-  	   width:40%;}
+  	 	width:40%;
+  		}
   	 header h1{
-	font-size: 6rem;
-  }
-	}
+		font-size: 6rem;
+  		}
+}
 
 @media all and (min-width: 1200px){
-
-	 header h1{
-	font-size: 7rem;
-  }
+	header h1{
+		font-size: 7rem;
+  	}
 }
