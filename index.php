@@ -7,11 +7,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	 <meta name="google-site-verification" content="rBRnpj5XSqUqYyI27OQ52hRYjk1PkW2Z1i3E9ces7oE" />
-    <title>Cooldev, concepteurs de sites web depuis 2017</title>
+    <title>Cooldev | A vos cotés dans votre communication digitale depuis 2017</title>
     <link rel="stylesheet" href="assets/css/mini.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto%7cRaleway:900%7cMontserrat:800%7cArchivo+Black%7cOswald:700%7cMaterial+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/master.css" />
+    
+   
+<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="Cooldev | A vos cotés dans votre communication digitale depuis 2017">
+	<meta property="og:site_name" content="Cooldev">
+	<meta property="og:url" content="http://www.cooldev.xyz">
+	<meta property="og:description" content="Nous accompagnons les petites entreprises et les indépendants dans leur présence numérique">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="assets/img/img-og.jpg">
 
 <!-- Piwik -->
 		<script type="text/javascript">
@@ -36,12 +45,12 @@
 	<div id="topScroll" class="navbar-fixed">
 		<nav>
           <div class="nav-wrapper">
-              <a href="#!" class="brand-logo left"><img class="responsive-img" src="assets/img/logo-v2.png" alt="logo cooldev" ></a>
+              <a data-target="#" class="scrollTo" href="#"class="brand-logo left"><img class="responsive-img" src="assets/img/logo-v2.png" alt="logo cooldev" ></a>
               <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons md-36">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-				    <li><a data-target="#offre" class="tape scrollTo" href="#section-offre">/ Offre</a></li>
-                <li><a data-target="#motto" class="tape scrollTo" href="#motto">/ A propos</a></li>
-                <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ Contact</a></li>
+				    <li><a data-target="#offre" class="tape scrollTo" href="#section-offre">/ Ce qu'on peut faire ensemble</a></li>
+                <li><a data-target="#motto" class="tape scrollTo" href="#motto">/ Histoires vraies</a></li>
+                <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ On s'appelle ?</a></li>
 
               </ul>
            		<ul class="side-nav" id="mobile-menu">
@@ -55,8 +64,8 @@
 	<header class="row valign-wrapper">
 		<div class="container center-align">
 		<div class="col s12 m12 l12">
-                <h1>Vous accompagner dans votre communication digitale</h1>
-					<p style="color:white;"><span class="tape">Le web n'attend que vous ;)</span></p>
+					<h1>A vos côtés,<br> dés le début</h1>	
+                <h2>Nous accompagnons <br>les entreprises dans leur présence numérique. <br>Le web n'attend que vous ;)</h2>
                 <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
 
       </div>
@@ -98,13 +107,13 @@
  <div class="container">
         <div id="motto">
 		  <div class="title col s12">
-		  		<h1><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">favorite_border</i>
-				Notre motivation</span></h1>
+		  		<h2><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">favorite_border</i>
+				Notre motivation</span></h2>
 			</div>
         </div>
 
         <div class="col s12">
-        	<h2>Vous</h2>
+        	<h3>Vous</h3>
           <p>Nous avons construit une offre pour les porteurs de projet. Pourquoi ? Parce que vous accompagner dans le développement de votre activité nous passionne. Nous avons beaucoup d'admiration pour ceux et celles qui ont le courage de créer leur entreprise, leur emploi et nous savons qu'au debut de cette aventure, vous avez peu de moyens et pouvez vous sentir perdu au sujet de la <strong>création de votre site web</strong>.</p>
 		  </div>
 		  <div class="col s12">
@@ -209,13 +218,13 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 	<div class="container">
 		  <div id="discuss" class="row">
 				<div class="title col s12">
-					<h1><span class='tape'><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
-					 Parlons-en !</span> </h1>
+					<h2>><span class='tape'><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
+					 Parlons-en !</span> </h2>
 				</div>
         </div>
 
         <div class="divContact row" id="scrollContact">
-          <h2 class="col s12 m12 l12">Une idée, un projet, un message ?<br/>C'est à vous !</h2>
+          <h3 class="col s12 m12 l12">Une idée, un projet, un message ?<br/>C'est à vous !</h3>
           <form class="col s12" id="contact" action="#contact" method="POST">
             <div class="markup input-field col s12 m12 l12">
               <i class="material-icons small prefix">account_box</i>
