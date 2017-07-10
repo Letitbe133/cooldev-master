@@ -210,7 +210,9 @@ nav ul a {
 .brand-logo{
 	padding: 15px;
 }
-
+.social {
+	padding-left: 20px;
+}
 .cta {
   display: block;
   margin: auto;
@@ -304,7 +306,7 @@ nav ul a {
 }
 
 
-#motiv {
+#motiv, #school{
 	background-color:white;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -461,6 +463,11 @@ input {
 	color:#00101a;
 	font-weight: 400;
 	font-size: 3rem;
+}
+/***********************************SECTION-BUDGET*********************************************/
+.budget {
+	margin:;
+
 }
 /***********************************FOOTER*****************************************************/
 footer {

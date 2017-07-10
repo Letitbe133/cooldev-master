@@ -33,7 +33,7 @@
 		<div class="section-offre">
 			<div class="container col s12 ">
 				<p>Les besoins en terme de communication ne sont pas les mêmes pour tous. Nous vous proposons des formations individuelles aux réseaux sociaux et à la maintenance de votre site web en fonction de votre niveau. </p>
-				<h2 class="center-align"><img src="assets/img/school-dev.png" alt="school dev"></h2>
+				<a href="formation-web.php " class="center-align"><img src="assets/img/school-dev.png" alt="school dev"></a>
 				<p></p>
 				<img src="" alt="">
 			</div>
@@ -46,19 +46,52 @@
 			<p>Un pas après l'autre.  Commencez maintenant et faites évoluer votre communication avec vos premiers clients </p>
 		</header>
 		<div class="section-offre">
-			<div class="container col s12 ">
+			<div class="container  ">
 				<p><img class="float right" src="assets/img/picto-perso.png" alt="" width="150px">Nous vous accompagnons dès de le debut de votre aventure entrepreneuriale. Commencer petit et faites évoluer votre communication en même temps que votre business. Ajoutez des pages à votre site vitrine, démarrer un blog, être présent sur un nouveau réseau social sont des pas que vous pouvez réaliser quand vous avez validé votre projet. Pour rendre le tout abordable pour les porteurs de projets, nous vous avons concocté des bundles au plus proche de vos besoins : </p>
 			</div>
-			<div class="container">
-			<div class="row">
-				<div class="col s10 offset-s1 l4 z-index1" style="height: 100px;z-index: 1" >	<div class="card-content"></div>	</div>	
-				<div class="col s10 offset-s1 l4 " style="height: 100px;" >		</div>
-				<div class="col s10 offset-s1 l4" style="height: 100px;" >		</div>
-				
-			</div>
-			</div>
-		</div>	
-	</section>
+	
+
+<div class="container" id="budget">
+  	<div class="row ">
+			<div class="budget col s12 m6 l4">
+				<div class="card"; >
+					<div class="card-content z-depth-2">
+						<h1>Offre #1</h1>
+						<p style="color: gray;">Lorem ipsum dolor sit amet. Vitae et consectetuer. Vivamus sagittis ante auctor nascetur ve. Pellentesque. Eget vestibulum amet metus pretium id, porttitor mi. Consequat class tristique turpis vehicula enim, nam. Quisque id arcu ullamcorper quisque, scelerisque erat arcu, congue. Venenatis suscipit ornare natoque tellus nibh ac sollicitudin viverra, non. Cum quis lorem suspendisse faucibus diam vel. In sociis consectetuer consequat magnis platea 
+</p>
+					</div>
+					<div class="card-action z-depth-2 cyan accent-3"><h2>XXX €</h2>	</div>				
+				</div>
+  			</div>
+  			<div class="budget col s12 m6 l4">
+				<div class="card"; >
+					<div class="card-content z-depth-2">
+						<h1>Offre #2</h1>
+						<p style="color: gray;">Lorem ipsum dolor sit amet. Vitae et consectetuer. Vivamus sagittis ante auctor nascetur ve. Pellentesque. Eget vestibulum amet metus pretium id, porttitor mi. Consequat class tristique turpis vehicula enim, nam. Quisque id arcu ullamcorper quisque, scelerisque erat arcu, congue. Venenatis suscipit ornare natoque tellus nibh ac sollicitudin viverra, non. Cum quis lorem suspendisse faucibus diam vel. In sociis consectetuer consequat magnis platea
+</p>
+					</div>
+					<div class="card-action  z-depth-2 cyan accent-3"><h2>XXX €</h2>	</div>				
+				</div>
+  			</div>
+  			<div class="budget col s12 m6 l4">
+				<div class="card"; >
+					<div class="card-content z-depth-2">
+						<h1>Offre #3</h1>
+						<p style="color: gray;">Lorem ipsum dolor sit amet. Vitae et consectetuer. Vivamus sagittis ante auctor nascetur ve. Pellentesque. Eget vestibulum amet metus pretium id, porttitor mi. Consequat class tristique turpis vehicula enim, nam. Quisque id arcu ullamcorper quisque, scelerisque erat arcu, congue. Venenatis suscipit ornare natoque tellus nibh ac sollicitudin viverra, non. Cum quis lorem suspendisse faucibus diam vel. In sociis consectetuer consequat magnis platea
+</p>
+					</div>
+					<div class="card-action z-depth-2 cyan accent-3">
+						<h2>XXX €</h2>					
+					</div>				
+				</div>
+  			</div>
+  		
+  		
+	</div>
+	</div>
+</section>
+
+
 
 
 
