@@ -2,13 +2,13 @@
 	<div class="container">
 		  <div id="discuss" class="row">
 				<div class="title col s12">
-					<h1><span class='tape'><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
-					 Parlons-en !</span> </h1>
+					<h2><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
+					 Parlons-en !</h2>
 				</div>
         </div>
 
         <div class="divContact row" id="scrollContact">
-          <h2 class="col s12 m12 l12">Une idée, un projet, un message ?<br/>C'est à vous !</h2>
+          <h3 class="col s12 m12 l12">Une idée, un projet, un message ?<br/>C'est à vous !</h3>
           <form class="col s12" id="contact" action="#contact" method="POST">
             <div class="markup input-field col s12 m12 l12">
               <i class="material-icons small prefix">account_box</i>

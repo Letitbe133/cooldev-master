@@ -42,7 +42,7 @@
 </head>
 <body>
 
-	<div id="topScroll" class="navbar-fixed">
+<!--	<div id="topScroll" class="navbar-fixed">
 		<nav>
           <div class="nav-wrapper">
               <a data-target="#" class="scrollTo" href="#"class="brand-logo left"><img class="responsive-img" src="assets/img/logo-v2.png" alt="logo cooldev" ></a>
@@ -60,12 +60,15 @@
             	</ul>
       		</div>
           </nav>
-    </div>
+    </div>-->
+ <?php
+	include('private/view/nav.php');
+?>
 	<header class="row valign-wrapper">
 		<div class="container center-align">
 		<div class="col s12 m12 l12">
-					<h1>A vos côtés,<br> dés le début</h1>	
-                <h2>Nous accompagnons <br>les entreprises dans leur présence numérique. <br>Le web n'attend que vous ;)</h2>
+					<h1>A vos côtés, dés le début</h1>	
+                <h2>Nous accompagnons <br>les entreprises dans leur présence numérique. <br><br><span class="tape">Le web n'attend que vous ;)</span></h2>
                 <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
 
       </div>
@@ -80,21 +83,21 @@
 
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-puzzle.png" alt="" >
+				<img class="responsive-img" src="assets/img/picto-puzzle.png"  alt="" >
 				<p>Une approche globale<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-coop.png" alt=""  >
+				<img class="responsive-img" src="assets/img/picto-coop.png"  alt=""  >
 				<p>Un accompagnement personnalisé<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
 				<img class="responsive-img" src="assets/img/picto-pig-2.png" alt=""  >
 				<p>Un budget maîtrisé<p>
-  		</div>
+  		</div> 
   		<div id="call-to-action" class="col s12 ">
-         <div class="col s12 m12 l12 center-align">
+         <!--<div class="col s12 m12 l12 center-align">
           	<p>A partir de 299 € ht.</p>
-          </div>
+          </div>-->
           <div class="div-cta">
             <a href="offre.php" ><button class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button></a>
           </div>
@@ -107,13 +110,13 @@
  <div class="container">
         <div id="motto">
 		  <div class="title col s12">
-		  		<h2><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">favorite_border</i>
-				Notre motivation</span></h2>
+		  		<h2 ><i id="illustration" style="color:#00c0a8;" class="material-icons medium">favorite_border</i>
+				Notre motivation, c'est vous !</h2>
 			</div>
         </div>
 
         <div class="col s12">
-        	<h3>Vous</h3>
+        
           <p>Nous avons construit une offre pour les porteurs de projet. Pourquoi ? Parce que vous accompagner dans le développement de votre activité nous passionne. Nous avons beaucoup d'admiration pour ceux et celles qui ont le courage de créer leur entreprise, leur emploi et nous savons qu'au debut de cette aventure, vous avez peu de moyens et pouvez vous sentir perdu au sujet de la <strong>création de votre site web</strong>.</p>
 		  </div>
 		  <div class="col s12">
@@ -166,59 +169,88 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 </div>
 <!-- *************************************TESTIMONIAL ********************************-->
 <section class="section-testimonial">
-<div class="container ">
+	<div class="container ">
 		  <div id="testimonial">
 		  <div class="title col s12">
-		  		<h1><span class="tape"><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
-				L'équipe</span></h1>
+		  		<h2><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
+				L'équipe</h2>
 			</div>
         </div>
 
-        <div class="row no-margin-bottom" id="us">
-
-         	<div class=" team col s12 m12 l6">
-         	<div id="lio">
-            <div class="photo col s6 m6 l6 center-align ">
-              <img class="photo" src="assets/img/lio.png" alt="Lionel, développeur web">
-            </div>
-
-           		<div class="col s6 m6 l6">
-           		<h2>Lionel</h2>
-           		<h5>Développeur web</h5>
-           		<p>CTO & Co-founder</p>
-           		</div>
-
-          	</div>
-          	<div class="col s12">
-              <p>Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
-         	</div>
-            </div>
-            <div class=" team col s12 m12 l6">
-           <div id="mi">
-            <div class="photo col s6 m6 l6 center-align">
-              <img class="photo " src="assets/img/mi.png" alt="Mylene, chargée de projet web">
-            </div>
-
-           	<div class="col s6 m6 l6">
-           		<h2>Mylène</h2>
-           		<h5> Chargée de projets web</h5>
-           		<p>CEO, CXO & Co-founder</p>
-           		</div>
-           	</div>
-           	<div class="col s12">
-             <p> La plus créative et la moins têtue des deux. Seriale entrepreneuse, elle connait bien les problèmatiques des <strong>porteurs de projets </strong>! Son alimentation à base de cookies (recette disponible sur simple demande) et de jus de carottes est le secret de son empathie <3 </p>
-            </div>
+	<div class="row no-margin-bottom" id="us">
+		<div class="  col s12 m12 l6 hide-on-small-only">
+			<div class="card horizontal ">
+				<div class="card-content " id="lio">
+					<img class="photo center-align" src="assets/img/lio.png" alt="Lionel, développeur web">
+					<h2 class="tape">Lionel</h2>
+					<h5>Développeur web</h5>
+					<p>CTO & Co-founder</p><br><br>
+				</div>
+			<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
+				<p style="color: dark">Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
+			</div>
 			</div>
 		</div>
-    </div>
+		<div class=" col s12 m12 l6 hide-on-small-only ">
+			<div class="card horizontal ">
+				<div class="card-content " id="mi" style="background-color:  ">
+					<img class="photo center-align" src="assets/img/mi.png" alt="Mylene, chargée de projet web">
+					<h2 class="tape">Mylène</h2>
+					<h5>Chargée de projets web</h5>
+					<p>CEO/CXO & Co-founder</p>
+				</div>
+				<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
+					<p style="color: dark">La plus créative et la moins têtue des deux. Seriale entrepreneuse, elle connait bien les problèmatiques des <strong>porteurs de projets </strong>! Son alimentation à base de cookies (recette ici) et de jus de carottes est le secret de son empathie <3 </p>
+	         </div>
+			</div>
+		</div>
+		<div class="  col s12 m12 l6 hide-on-med-and-up">
+			<div class="card  ">
+				<div class="card-content " id="lio" style="background-color:  ">
+					<img class="photo center-align" src="assets/img/lio.png" alt="Lionel, développeur web">
+					<h2 class="tape">Lionel</h2>
+					<h5>Développeur web</h5>
+					<p>CTO & Co-founder</p><br><br>
+				</div>
+			<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
+				<p style="color: dark">Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
+			</div>
+			</div>
+		</div>
+		<div class=" col s12 m12 l6 hide-on-med-and-up ">
+			<div class="card ">
+				<div class="card-content " id="mi" style="background-color:  ">
+					<img class="photo center-align" src="assets/img/mi.png" alt="Mylene, chargée de projet web">
+					<h2 class="tape">Mylène</h2>
+					<h5>Chargée de projets web</h5>
+					<p>CEO/CXO & Co-founder</p>
+				</div>
+				<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
+					<p style="color: dark">La plus créative et la moins têtue des deux. Seriale entrepreneuse, elle connait bien les problèmatiques des <strong>porteurs de projets </strong>! Son alimentation à base de cookies (recette ici) et de jus de carottes est le secret de son empathie <3 </p>
+	         </div>
+			</div>
+		</div>
+	</div>
+ </div>
 </section>
-
+<section id="section-main-offer">
+<div class="container" >
+	<div class="title col s12">
+		  		<h2><i id="illustration" style="color:black" class="material-icons medium">&#xE912;</i>
+				Nos packs</h2>
+			</div>
+		<?php
+	include('private/view/offer-cards.php');
+?>
+  	
+	</div>
+</section>
 <!-- *************************************CONTACT********************************-->
 <div id="section-contact">
 	<div class="container">
 		  <div id="discuss" class="row">
 				<div class="title col s12">
-					<h2>><span class='tape'><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
+					<h2 style="color:#00c0a8;"><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
 					 Parlons-en !</span> </h2>
 				</div>
         </div>
@@ -252,7 +284,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
         </div>
         <div class="fixed-action-btn">
     	<div id="up">
-			<a data-target="#topScroll" style="background-color: #00101a;" class="btn-floating center-align black scrollTo" href="#topScroll"><img src="assets/img/arrow-up.png" alt=""></a>
+			<a data-target="#topScroll" style="background-color: #00101a;" class="btn-floating center-align scrollTo" href="#topScroll"><img src="assets/img/arrow-up.png" alt=""></a>
     	</div>
     	</div>
     	</div>

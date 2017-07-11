@@ -39,22 +39,22 @@ header img:hover {
   cursor: pointer;
 }
 header h1{
-	font-size: 3.5rem;
+	font-size: 3rem!important;
 	text-transform: uppercase;
 	
-	font-weight: 300;
+	font-weight: 900;
 	color: white;
 	text-rendering: optimizeLegibility;
-	background-image: url("../img/masking-tape-yellow.png");
+	/*background-image: url("../img/masking-tape-yellow.png");
    background-repeat: no-repeat;
    background-size: cover;
    background-size: 100% 100%;
    padding: 15px;
-   color:#00101a;
+   color:#00101a;*/
 }
 header h2{
 	font-size: 1.7rem;
-	font-weight: 100;
+	font-weight: 100!important;
 	color: white;
 }
 .header-light p{
@@ -76,11 +76,8 @@ header h2{
 	font-weight: 300;
 	background-image: none;
 	text-rendering: optimizeLegibility;
-	padding: 0;
-		transform-origin: 50%;
-transform: translateY(-50%);
-transform-origin: 50% 100%;
-	
+	padding-top: 20px;
+
 }
 .markup{
 	font-style: bold;
@@ -115,7 +112,10 @@ h1{
 
 }
 h2 {
-	color:#00101a;
+	color:#00c0a8;
+	font-weight: 800!important;
+	padding-bottom: 20px;
+	
 }
 h3{
   color: white;
@@ -325,25 +325,28 @@ nav ul a {
 }
 /*****************************************TESTIMONIAL******************************************/
 .section-testimonial {
-	background-color: white;
+	background-color:white ;
 }
 #testimonial {
-	padding-top: 60px;
+	padding-top: 30px;
 
 }
 #us{
-	background-color:white;
+	background-color:;
 }
 #us h5+p{
 	font-size: 1.2rem;
 }
-#lio {
+/*#lio {
 	padding-bottom: 30px;
 	padding-top: 60px;
 }
 #mi {
 	padding-bottom: 30px;
 	padding-top: 60px;
+}*/
+.card-content p {
+	color:black!important;
 }
 /*****************************************OFFRE******************************************/
 
@@ -358,8 +361,8 @@ nav ul a {
 }
 #offre p {
 	color:white;
-	font-size: 3rem;
-	padding-top: 30px;
+	font-size: 2rem;
+	padding-top: 20px;
 
 }
 .collapsible h2{
@@ -411,6 +414,12 @@ nav ul a {
 }
 .section-offre img {
 	padding: 15px;
+}
+/************************************************************************************/
+#section-main-offer {
+	background-color: white;
+	padding-top: 80px;
+	padding-bottom: 50px;
 }
 /****************************************CONTACT*****************************************/
 #section-contact{
@@ -502,10 +511,13 @@ footer {
 
 @media all and (min-width: 601px){
 	header h1{
-		font-size: 4rem;
+		font-size: 3.5rem!important;
 	}
 	header h2{
 	font-size: 2rem;}
+	#offre p {
+	font-size: 2rem;}
+	
 	
 }
 @media all and (min-width: 801px){
@@ -517,16 +529,20 @@ footer {
   	 	width:40%;
   		}
   	 header h1{
-		font-size: 6rem;
+		font-size: 4.5rem!important;
   		}
   		header h2{
 	font-size: 3rem;}
+	#offre p {
+	font-size: 2.5rem;}
 }
 
 @media all and (min-width: 1200px){
 	header h1{
-		font-size: 7rem;
+		font-size: 5.5rem!important;
   	}
   	header h2{
 	font-size: 3.5rem;}
+	#offre p {
+	font-size: 3rem;}
 }
