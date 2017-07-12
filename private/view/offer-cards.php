@@ -1,4 +1,4 @@
-<div class="row ">
+<div class="row no-margin-bottom">
 			<div class="budget col s12 m6 l4">
 				<div class="card"; >
 					<div class="card-content z-depth-2">

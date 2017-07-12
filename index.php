@@ -83,11 +83,11 @@
 
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-puzzle.png"  alt="" >
+				<img class="responsive-img" src="assets/img/picto-puzzle.png"  alt=""  >
 				<p>Une approche globale<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-coop.png"  alt=""  >
+				<img class="responsive-img" src="assets/img/picto-coop.png"  alt=""   >
 				<p>Un accompagnement personnalisé<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
@@ -168,6 +168,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 </div>
 </div>
 <!-- *************************************TESTIMONIAL ********************************-->
+
 <section class="section-testimonial">
 	<div class="container ">
 		  <div id="testimonial">
@@ -180,22 +181,24 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 	<div class="row no-margin-bottom" id="us">
 		<div class="  col s12 m12 l6 hide-on-small-only">
 			<div class="card horizontal ">
-				<div class="card-content " id="lio">
-					<img class="photo center-align" src="assets/img/lio.png" alt="Lionel, développeur web">
-					<h2 class="tape">Lionel</h2>
+				<div class="card-content" id="lio">
+					<img class="photo center-align" src="assets/img/lio-v2.png" alt="Lionel, développeur web" width="100px">
+					<h2 >Lionel</h2>
 					<h5>Développeur web</h5>
 					<p>CTO & Co-founder</p><br><br>
 				</div>
 			<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
 				<p style="color: dark">Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
+				<a class="btn-floating halfway-fab waves-effect pink"><i class="material-icons">add</i></a>
+				
 			</div>
 			</div>
 		</div>
 		<div class=" col s12 m12 l6 hide-on-small-only ">
 			<div class="card horizontal ">
 				<div class="card-content " id="mi" style="background-color:  ">
-					<img class="photo center-align" src="assets/img/mi.png" alt="Mylene, chargée de projet web">
-					<h2 class="tape">Mylène</h2>
+					<img class="photo center-align" src="assets/img/mi-v2.png" alt="Mylene, chargée de projet web" width="100px">
+					<h2 >Mylène</h2>
 					<h5>Chargée de projets web</h5>
 					<p>CEO/CXO & Co-founder</p>
 				</div>
@@ -207,8 +210,8 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 		<div class="  col s12 m12 l6 hide-on-med-and-up">
 			<div class="card  ">
 				<div class="card-content " id="lio" style="background-color:  ">
-					<img class="photo center-align" src="assets/img/lio.png" alt="Lionel, développeur web">
-					<h2 class="tape">Lionel</h2>
+					<img class="photo center-align" src="assets/img/lio-v2.png" alt="Lionel, développeur web" width="100px">
+					<h2>Lionel</h2>
 					<h5>Développeur web</h5>
 					<p>CTO & Co-founder</p><br><br>
 				</div>
@@ -220,8 +223,8 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 		<div class=" col s12 m12 l6 hide-on-med-and-up ">
 			<div class="card ">
 				<div class="card-content " id="mi" style="background-color:  ">
-					<img class="photo center-align" src="assets/img/mi.png" alt="Mylene, chargée de projet web">
-					<h2 class="tape">Mylène</h2>
+					<img class="photo center-align" src="assets/img/mi-v2.png" alt="Mylene, chargée de projet web" width="100px">
+					<h2>Mylène</h2>
 					<h5>Chargée de projets web</h5>
 					<p>CEO/CXO & Co-founder</p>
 				</div>

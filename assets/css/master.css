@@ -41,7 +41,7 @@ header img:hover {
 header h1{
 	font-size: 3rem!important;
 	text-transform: uppercase;
-	
+	text-shadow: 2px 3px 0px  rgba(0,0,0, 0.2);
 	font-weight: 900;
 	color: white;
 	text-rendering: optimizeLegibility;
@@ -55,30 +55,10 @@ header h1{
 header h2{
 	font-size: 1.7rem;
 	font-weight: 100!important;
+
 	color: white;
 }
-.header-light p{
-	font-size: 2rem;
-	color: white;
 
-}
-.header-light {
-	padding-left: 25px;
-	padding-top: 15vh;
-	height: 70vh;
-
-
-}
-.header-light h1{
-	font-size: 2.8rem;
-	color:white;
-	text-transform: uppercase;
-	font-weight: 300;
-	background-image: none;
-	text-rendering: optimizeLegibility;
-	padding-top: 20px;
-
-}
 .markup{
 	font-style: bold;
 	background-image: url("../img/masking-tape-pink.png");
@@ -106,7 +86,7 @@ header h2{
 h1{
   color: #00101a;
   font-size: 4rem;
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
   text-rendering: optimizeLegibility;
 
 
@@ -359,6 +339,9 @@ nav ul a {
 #offre {
 	background-color: #00101a;
 }
+#offre img {
+	height: 100px;
+}
 #offre p {
 	color:white;
 	font-size: 2rem;
@@ -406,7 +389,7 @@ nav ul a {
 	font-size: 2rem;
 	padding-top: 0;
 }
-/*****************************************OFFRE-PAGE******************************************/
+/*****************************************PAGES******************************************/
 .section-offre {
 	background-color: white;
 	padding-top: 20px;
@@ -414,6 +397,43 @@ nav ul a {
 }
 .section-offre img {
 	padding: 15px;
+}
+.section-header-light h1 {
+	color: #00c0a8;
+	font-weight: 900;
+}
+.section-header-light h2 {
+	color: black;
+	font-weight: 300!important;
+	font-size: 3.2rem;
+}
+.section-header-light {
+	background-color: white;
+	padding-top:50px!important;
+}
+.header-light p{
+	font-size: 1.8rem;
+	color: white;
+
+}
+.header-light {
+	/*padding-left: 25px;*/
+	padding-top:50px!important;
+	
+	background-color: white;
+
+
+}
+.header-light h1{
+	font-size: 2.5rem!important;
+	color:white;
+	text-transform: uppercase;
+	font-weight: 300;
+	background-image: none;
+	
+	padding-top: 0px;
+	text-shadow:none;
+
 }
 /************************************************************************************/
 #section-main-offer {
