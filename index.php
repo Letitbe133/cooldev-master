@@ -65,33 +65,34 @@
 	include('private/view/nav.php');
 ?>
 	<header class="row valign-wrapper">
-		<div class="container center-align">
+		<div id="header" class="container center-align">
 		<div class="col s12 m12 l12">
-					<h1>A vos côtés, dés le début</h1>	
-                <h2>Nous accompagnons <br>les entreprises dans leur présence numérique. <br><br><span class="tape">Le web n'attend que vous ;)</span></h2>
+					<h1>Tout ce que vous<br> n'avez jamais osé faire <br>sur le web</h1>	
                 <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
-
       </div>
-
+  
     </div>
+    <div class="overlay"></div>
 	</header>
 
 
   <!---*************************************OFFRE********************************-->
 
 <section id="offre">
-
+	<div class="container">
+	<h2 class="center-align">Nous accompagnons les entreprises dans leur <br>présence numérique.<!--<br><br><span class="tape">Le web n'attend que vous ;)</span>--></h2>
+                
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-puzzle.png"  alt=""  >
+				<img class="responsive-img" src="assets/img/picto-puzzle-tape.png"  alt=""  >
 				<p>Une approche globale<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-coop.png"  alt=""   >
+				<img class="responsive-img" src="assets/img/picto-coop-tape.png"  alt=""   >
 				<p>Un accompagnement personnalisé<p>
   		</div>
   		<div class="picto-offre col s12 m12 l4 center-align">
-				<img class="responsive-img" src="assets/img/picto-pig-2.png" alt=""  >
+				<img class="responsive-img" src="assets/img/picto-pig-tape.png" alt=""  >
 				<p>Un budget maîtrisé<p>
   		</div> 
   		<div id="call-to-action" class="col s12 ">
@@ -102,17 +103,24 @@
             <a href="offre.php" ><button class="btn cta scrollTo" type="button" name="button">J'ai besoin de ça !</button></a>
           </div>
       </div>
+       <div class="separator col s8 offset-s2 divider"></div>
+	</div>
 	</div>
 </section>
 
   <!-- *************************************MOTTO********************************-->
 <div id="motiv">
+
  <div class="container">
         <div id="motto">
 		  <div class="title col s12">
-		  		<h2 ><i id="illustration" style="color:#00c0a8;" class="material-icons medium">favorite_border</i>
+		  		<h2 class="center-align">
 				Notre motivation, c'est vous !</h2>
+				
 			</div>
+			<div class="row">
+			<div class="center-align col s12"><i id="illustration" style="color:#00c0a8;" class="center-align material-icons medium">favorite_border</i></div>
+        </div>
         </div>
 
         <div class="col s12">
@@ -165,15 +173,20 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
               </li>
             </ul>
           </div>
+          
 </div>
+
 </div>
 <!-- *************************************TESTIMONIAL ********************************-->
 
 <section class="section-testimonial">
+<div class="row">
+<div class="separator col s8 offset-s2 divider"></div>
+</div>
 	<div class="container ">
 		  <div id="testimonial">
 		  <div class="title col s12">
-		  		<h2><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
+		  		<h2 class="center-align"><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
 				L'équipe</h2>
 			</div>
         </div>
@@ -233,10 +246,16 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 	         </div>
 			</div>
 		</div>
+		
 	</div>
  </div>
+ 
 </section>
+
 <section id="section-main-offer">
+<div class="row">
+<div class="separator  col s8 offset-s2 divider"></div>
+</div>
 <div class="container" >
 	<div class="title col s12">
 		  		<h2><i id="illustration" style="color:black" class="material-icons medium">&#xE912;</i>
@@ -250,6 +269,9 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 </section>
 <!-- *************************************CONTACT********************************-->
 <div id="section-contact">
+<div class="row">
+<div class="separator col s8 offset-s2 divider"></div>
+</div>
 	<div class="container">
 		  <div id="discuss" class="row">
 				<div class="title col s12">

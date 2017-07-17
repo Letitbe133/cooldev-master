@@ -25,16 +25,34 @@ html, body {
   color: white;
   font-size: 62.5%;
   box-sizing: border-box;
-  background-color: #00101a;
+
 
 
 }
 
 header{
+	position: relative;
+  	display: flex;
 	height: 90vh;
-	background-color: #00101a;
+	
+	background-image: url("../img/textures/index.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+		
 	
 }
+#header {
+	z-index: 2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 16, 26, 0.8);
+  z-index: 1;
+ }
 header img:hover {
   cursor: pointer;
 }
@@ -48,9 +66,8 @@ header h1{
 	/*background-image: url("../img/masking-tape-yellow.png");
    background-repeat: no-repeat;
    background-size: cover;
-   background-size: 100% 100%;
-   padding: 15px;
-   color:#00101a;*/
+   background-size: 100% 100%;*/
+   
 }
 header h2{
 	font-size: 1.7rem;
@@ -92,8 +109,8 @@ h1{
 
 }
 h2 {
-	color:#00c0a8;
-	font-weight: 800!important;
+	color:#333333;
+	font-weight: 300!important;
 	padding-bottom: 20px;
 	
 }
@@ -262,7 +279,7 @@ nav ul a {
 }
 
 .text-sec2 p {
-  color: black!important;
+  color: #333333!important;
   font-weight: ;
   font-size: 2.7em;
   line-height: 2.8rem;
@@ -326,7 +343,7 @@ nav ul a {
 	padding-top: 60px;
 }*/
 .card-content p {
-	color:black!important;
+	color:#333333!important;
 }
 /*****************************************OFFRE******************************************/
 
@@ -337,14 +354,16 @@ nav ul a {
 
 }
 #offre {
-	background-color: #00101a;
+	background-color: white;
+	margin-top: 80px;
 }
 #offre img {
-	height: 100px;
+	height: 150px;
 }
 #offre p {
-	color:white;
-	font-size: 2rem;
+	color:#333333;
+	font-size: 2rem!important;
+	font-weight: 400;
 	padding-top: 20px;
 
 }
@@ -353,7 +372,7 @@ nav ul a {
    font-weight: bold;
    letter-spacing: 0.1em;
    line-height: 2em;
-	color: black;
+	color: #333333;
 
 }
 
@@ -383,7 +402,7 @@ nav ul a {
 	cursor:pointer;
 }
 #call-to-action {
-	background-color: #00101a;
+	background-color: white;
 }
 #call-to-action p{
 	font-size: 2rem;
@@ -552,7 +571,7 @@ footer {
 		font-size: 4.5rem!important;
   		}
   		header h2{
-	font-size: 3rem;}
+	font-size: 2rem;}
 	#offre p {
 	font-size: 2.5rem;}
 }
@@ -562,7 +581,7 @@ footer {
 		font-size: 5.5rem!important;
   	}
   	header h2{
-	font-size: 3.5rem;}
+	font-size: 2rem;}
 	#offre p {
 	font-size: 3rem;}
 }
