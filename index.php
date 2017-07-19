@@ -119,7 +119,7 @@
 				
 			</div>
 			<div class="row">
-			<div class="center-align col s12"><i id="illustration" style="color:#00c0a8;" class="center-align material-icons medium">favorite_border</i></div>
+			<div class="center-align col s12"><i id="illustration" style="color:#F92AC2;" class="center-align material-icons medium">favorite_border</i></div>
         </div>
         </div>
 
@@ -186,12 +186,15 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 	<div class="container ">
 		  <div id="testimonial">
 		  <div class="title col s12">
-		  		<h2 class="center-align"><i id="illustration" style="color:black" class="material-icons medium">&#xE87C;</i>
-				L'équipe</h2>
+		  		<h2 class="center-align">L'équipe</h2>
+		  	<div class="row">
+		  		<div class="center-align col s12">
+					<i id="illustration" style="color:#F92AC2" class="material-icons medium">&#xE87C;</i>		  		
+		  		</div>
 			</div>
         </div>
 
-	<div class="row no-margin-bottom" id="us">
+	<!-- <div class="row no-margin-bottom" id="us">
 		<div class="  col s12 m12 l6 hide-on-small-only">
 			<div class="card horizontal ">
 				<div class="card-content" id="lio">
@@ -202,7 +205,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 				</div>
 			<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
 				<p style="color: dark">Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
-				<a class="btn-floating halfway-fab waves-effect pink"><i class="material-icons">add</i></a>
+				<a class="btn-floating halfway-fab " style="background-color: #FFFD10;"><i class="material-icons">&#xE80D;</i></a>
 				
 			</div>
 			</div>
@@ -217,19 +220,26 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 				</div>
 				<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
 					<p style="color: dark">La plus créative et la moins têtue des deux. Seriale entrepreneuse, elle connait bien les problèmatiques des <strong>porteurs de projets </strong>! Son alimentation à base de cookies (recette ici) et de jus de carottes est le secret de son empathie <3 </p>
+					<a class="btn-floating halfway-fab " style="background-color: #FFFD10;"><i class="material-icons">&#xE80D;</i></a>	         
 	         </div>
 			</div>
 		</div>
 		<div class="  col s12 m12 l6 hide-on-med-and-up">
 			<div class="card  ">
+				
 				<div class="card-content " id="lio" style="background-color:  ">
 					<img class="photo center-align" src="assets/img/lio-v2.png" alt="Lionel, développeur web" width="100px">
+					
 					<h2>Lionel</h2>
 					<h5>Développeur web</h5>
 					<p>CTO & Co-founder</p><br><br>
+					
 				</div>
+				
 			<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
+			
 				<p style="color: dark">Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
+				
 			</div>
 			</div>
 		</div>
@@ -245,8 +255,10 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 					<p style="color: dark">La plus créative et la moins têtue des deux. Seriale entrepreneuse, elle connait bien les problèmatiques des <strong>porteurs de projets </strong>! Son alimentation à base de cookies (recette ici) et de jus de carottes est le secret de son empathie <3 </p>
 	         </div>
 			</div>
-		</div>
-		
+		</div> -->
+		<?php
+	include('private/view/cards-testimonial.php');
+?>
 	</div>
  </div>
  
@@ -258,9 +270,13 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 </div>
 <div class="container" >
 	<div class="title col s12">
-		  		<h2><i id="illustration" style="color:black" class="material-icons medium">&#xE912;</i>
-				Nos packs</h2>
-			</div>
+		  		<h2 class="center-align">Nos packs</h2>
+	</div>
+	<div class="row">
+		<div class="center-align col s12">
+			<i id="illustration" style="color:#F92AC2" class="material-icons medium">&#xE912;</i>		
+		</div>
+	</div>
 		<?php
 	include('private/view/offer-cards.php');
 ?>
@@ -275,8 +291,13 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 	<div class="container">
 		  <div id="discuss" class="row">
 				<div class="title col s12">
-					<h2 style="color:#00c0a8;"><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
-					 Parlons-en !</span> </h2>
+					<h2 class="center-align">
+					 Parlons-en !</h2>
+				<div class="row">
+					<div class="center-align col s12">
+						<i id="illustration" style="color: #F92AC2;" class="material-icons medium">question_answer</i>
+					</div>				
+				</div>
 				</div>
         </div>
 

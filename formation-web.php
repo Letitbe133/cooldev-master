@@ -8,16 +8,17 @@
 <?php
 	include('private/view/nav.php');
 ?>
-<header class="container header-light">
-		
-		
-					<img src="assets/img/school-dev.png" width="200px" alt="" />
-					<h2>Des formations à la carte pour vous aider à prendre en main votre communication web</h2>
-
- 		
+<header class="row valign-wrapper">
+		<div id="header" class="container center-align">
+		<div class="col s12 m12 l12">
+			<img src="assets/img/school-dev.png" width="200px" alt="" />
+			<h1>Des formations à la carte pour vous aider à prendre en main votre communication web</h1></div>
+    	</div>
+    	<div class="overlay"></div>
+</header>	
 
  
-</header>
+
 <div class="section-offre">
 <div class="container" id="school">
 <div class="row">
@@ -45,5 +46,9 @@
 	include('private/view/contact-form.php');
 ?>
 <?php
+	include('private/view/arrow.php');
+?>
+<?php
 	include('private/view/footer.php');
 ?>
+</body>

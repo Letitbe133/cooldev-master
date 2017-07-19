@@ -1,12 +1,19 @@
 <div id="section-contact">
+<div class="row">
+<div class="separator col s8 offset-s2 divider"></div>
+</div>
 	<div class="container">
 		  <div id="discuss" class="row">
 				<div class="title col s12">
-					<h2><i id="illustration" style="color: black;" class="material-icons medium">question_answer</i>
+					<h2 class="center-align">
 					 Parlons-en !</h2>
+				<div class="row">
+					<div class="center-align col s12">
+						<i id="illustration" style="color: #F92AC2;" class="material-icons medium">question_answer</i>
+					</div>				
+				</div>
 				</div>
         </div>
-
         <div class="divContact row" id="scrollContact">
           <h3 class="col s12 m12 l12">Une idée, un projet, un message ?<br/>C'est à vous !</h3>
           <form class="col s12" id="contact" action="#contact" method="POST">

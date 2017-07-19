@@ -62,7 +62,7 @@
 	
 
 	<div class="container" id="budget">
-		<?php
+<?php
 	include('private/view/offer-cards.php');
 ?>
   	
@@ -75,6 +75,9 @@
 
 <?php
 	include('private/view/contact-form.php');
+?>
+<?php
+	include('private/view/arrow.php');
 ?>
 <?php
 	include('private/view/footer.php');
