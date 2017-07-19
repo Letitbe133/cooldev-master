@@ -194,69 +194,8 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 			</div>
         </div>
 
-	<!-- <div class="row no-margin-bottom" id="us">
-		<div class="  col s12 m12 l6 hide-on-small-only">
-			<div class="card horizontal ">
-				<div class="card-content" id="lio">
-					<img class="photo center-align" src="assets/img/lio-v2.png" alt="Lionel, développeur web" width="100px">
-					<h2 >Lionel</h2>
-					<h5>Développeur web</h5>
-					<p>CTO & Co-founder</p><br><br>
-				</div>
-			<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
-				<p style="color: dark">Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
-				<a class="btn-floating halfway-fab " style="background-color: #FFFD10;"><i class="material-icons">&#xE80D;</i></a>
-				
-			</div>
-			</div>
-		</div>
-		<div class=" col s12 m12 l6 hide-on-small-only ">
-			<div class="card horizontal ">
-				<div class="card-content " id="mi" style="background-color:  ">
-					<img class="photo center-align" src="assets/img/mi-v2.png" alt="Mylene, chargée de projet web" width="100px">
-					<h2 >Mylène</h2>
-					<h5>Chargée de projets web</h5>
-					<p>CEO/CXO & Co-founder</p>
-				</div>
-				<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
-					<p style="color: dark">La plus créative et la moins têtue des deux. Seriale entrepreneuse, elle connait bien les problèmatiques des <strong>porteurs de projets </strong>! Son alimentation à base de cookies (recette ici) et de jus de carottes est le secret de son empathie <3 </p>
-					<a class="btn-floating halfway-fab " style="background-color: #FFFD10;"><i class="material-icons">&#xE80D;</i></a>	         
-	         </div>
-			</div>
-		</div>
-		<div class="  col s12 m12 l6 hide-on-med-and-up">
-			<div class="card  ">
-				
-				<div class="card-content " id="lio" style="background-color:  ">
-					<img class="photo center-align" src="assets/img/lio-v2.png" alt="Lionel, développeur web" width="100px">
-					
-					<h2>Lionel</h2>
-					<h5>Développeur web</h5>
-					<p>CTO & Co-founder</p><br><br>
-					
-				</div>
-				
-			<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
-			
-				<p style="color: dark">Trilingue français/anglais/javascript, il lui est déjà arrivé de rêver en code. Vous l'aurez compris, son domaine, c'est la vie cachée de votre futur <strong>site web</strong>, le <strong>back-end</strong>. Sa passion secrète, c'est faire des treks en pleine nature avec son chien Spud. <p>
-				
-			</div>
-			</div>
-		</div>
-		<div class=" col s12 m12 l6 hide-on-med-and-up ">
-			<div class="card ">
-				<div class="card-content " id="mi" style="background-color:  ">
-					<img class="photo center-align" src="assets/img/mi-v2.png" alt="Mylene, chargée de projet web" width="100px">
-					<h2>Mylène</h2>
-					<h5>Chargée de projets web</h5>
-					<p>CEO/CXO & Co-founder</p>
-				</div>
-				<div class="card-action valign-wrapper" style="background-color:#00F4D9;">
-					<p style="color: dark">La plus créative et la moins têtue des deux. Seriale entrepreneuse, elle connait bien les problèmatiques des <strong>porteurs de projets </strong>! Son alimentation à base de cookies (recette ici) et de jus de carottes est le secret de son empathie <3 </p>
-	         </div>
-			</div>
-		</div> -->
-		<?php
+
+<?php
 	include('private/view/cards-testimonial.php');
 ?>
 	</div>
@@ -277,7 +216,7 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 			<i id="illustration" style="color:#F92AC2" class="material-icons medium">&#xE912;</i>		
 		</div>
 	</div>
-		<?php
+<?php
 	include('private/view/offer-cards.php');
 ?>
   	

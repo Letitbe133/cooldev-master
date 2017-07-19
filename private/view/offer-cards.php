@@ -6,10 +6,16 @@
 					</div>
 					<div class="card-content ">
 					
-						<p style="color: gray;">Lorem ipsum dolor sit amet. Vitae et consectetuer. Vivamus sagittis ante auctor nascetur ve. Pellentesque. Eget vestibulum amet metus pretium id, porttitor mi. Consequat class tristique turpis vehicula enim, nam. Quisque id arcu ullamcorper quisque, scelerisque erat arcu, congue. Venenatis suscipit ornare natoque tellus nibh ac sollicitudin viverra, non. Cum quis lorem suspendisse faucibus diam vel. In sociis consectetuer consequat magnis platea 
-</p>
+						<p style="color: gray;">Pour une présence sur le web réussie et efficace, l'incontournable site web s'impose. Mais attention, pas n'importe quel site web ! Il faut qu'il soit pro, qu'il soit consultable sur tous supports et surtout qu'il fasse clairement passer votre message à vos clients ! <br>Spécialement conçu pour vous, le tinysite (Taaadaaam !) :
+					<ul class="browser-default">
+						<li>Une landing-page au design actuel avec toutes vos infos importantes</li>
+						<li>Le nom de domaine en .fr pendant 1 an</li>
+						<li>L'hébergement pendant 1 an</li>	
+								
+					</ul>					
+					</p>
 					</div>
-					<div class="card-action z-depth-2 cyan accent-3"><h2>XXX €</h2>	</div>				
+					<div class="card-action z-depth-2 "><h2>XXX €</h2>	</div>				
 				</div>
   			</div>
   			<div class="budget col s12 m6 l4">
@@ -20,9 +26,9 @@
 					</div>
 					<div class="card-content ">
 						<p style="color: gray;">Lorem ipsum dolor sit amet. Vitae et consectetuer. Vivamus sagittis ante auctor nascetur ve. Pellentesque. Eget vestibulum amet metus pretium id, porttitor mi. Consequat class tristique turpis vehicula enim, nam. Quisque id arcu ullamcorper quisque, scelerisque erat arcu, congue. Venenatis suscipit ornare natoque tellus nibh ac sollicitudin viverra, non. Cum quis lorem suspendisse faucibus diam vel. In sociis consectetuer consequat magnis platea
-</p>
+						</p>
 					</div>
-					<div class="card-action  z-depth-2 cyan accent-3"><h2>XXX €</h2>	</div>				
+					<div class="card-action  z-depth-2 "><h2>XXX €</h2>	</div>				
 				</div>
   			</div>
   			<div class="budget col s12 m6 l4">
@@ -33,10 +39,10 @@
 					</div>
 						<div class="card-content ">
 						<p style="color: gray;">Lorem ipsum dolor sit amet. Vitae et consectetuer. Vivamus sagittis ante auctor nascetur ve. Pellentesque. Eget vestibulum amet metus pretium id, porttitor mi. Consequat class tristique turpis vehicula enim, nam. Quisque id arcu ullamcorper quisque, scelerisque erat arcu, congue. Venenatis suscipit ornare natoque tellus nibh ac sollicitudin viverra, non. Cum quis lorem suspendisse faucibus diam vel. In sociis consectetuer consequat magnis platea
-</p>
+						</p>
 					</div>
-					<div class="card-action z-depth-2 cyan accent-3">
-						<h2>XXX €</h2>					
+					<div class="card-action z-depth-2 ">
+						<h2>Sur devis</h2>					
 					</div>				
 				</div>
   			</div>
