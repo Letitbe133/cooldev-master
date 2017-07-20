@@ -18,7 +18,7 @@
 
               </ul>
            		<ul class="side-nav" id="mobile-menu">
-	           	  <li><a data-target="#offre" class="tape scrollTo" href="#offre">/ Ce qu'on peut faire ensemble</a></li>
+	           	  <li><a class="tape " href="offre.php">/ Offre</a></li>
 	              <li><a class="tape scrollTo" href="works.php">/ Histoires vraies</a></li>
 	              <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ Contact</a></li>
 	              <li><a href="formation-web.php" class="tape">/ SchoolDev</a></li>

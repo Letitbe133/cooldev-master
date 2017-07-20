@@ -5,14 +5,12 @@
 							<a href=""  class="cta card-header  center-align"><h2 class="valign-wrapper">#1 L'essentiel</h2></a>
 					</div>
 					<div class="card-content ">
-					
-						<p style="color: gray;">Pour une présence sur le web réussie et efficace, l'incontournable site web s'impose. Mais attention, pas n'importe quel site web ! Il faut qu'il soit pro, qu'il soit consultable sur tous supports et surtout qu'il fasse clairement passer votre message à vos clients ! <br>Spécialement conçu pour vous, le tinysite (Taaadaaam !) :
 					<ul class="browser-default">
 						<li>Une landing-page au design actuel avec toutes vos infos importantes</li>
 						<li>Le nom de domaine en .fr pendant 1 an</li>
 						<li>L'hébergement pendant 1 an</li>	
 								
-					</ul>					
+					</ul>	
 					</p>
 					</div>
 					<div class="card-action z-depth-2 "><h2>XXX €</h2>	</div>				

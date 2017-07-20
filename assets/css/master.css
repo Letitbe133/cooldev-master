@@ -75,7 +75,9 @@ header h2{
 
 	color: white;
 }
-
+.bold {
+	font-weight: 400;
+}
 .markup{
 	font-style: bold;
 	background-image: url("../img/masking-tape-pink.png");
@@ -340,6 +342,15 @@ nav ul a {
 /*****************************************OFFRE******************************************/
 .offer-card {
 padding: 15px!important;	
+}
+.budget ul {
+	font-size: 2rem;
+	font-weight: 200;
+	color:black;
+}
+.budget li {
+
+	list-style-image: url("../img/arrow-right.png");
 }
 .card-header {
 	width: 100%;

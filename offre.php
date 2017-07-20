@@ -24,7 +24,7 @@
      	 			</div>
       		</div>
  		</div>
-			<p class="no-margin-bottom">Nous réalisons des sites web responsive accessibles sur tous supports et adaptés à votre projet : site vitrine, blog, site internet sur mesure. Nous vous aidons à optimiser le contenu pour un référencement naturel (SEO) et à générer du traffic grâce aux réseaux sociaux. La suite, c'est vous et votre talent dans votre <i class="material-icons">favorite</i>de métier </p>
+			<p class="no-margin-bottom"><span class="bold">Nous réalisons des sites web responsives accessibles sur tous supports et adaptés à votre projet </span>: site vitrine, blog, site internet sur mesure. Nous vous aidons à optimiser le contenu pour un référencement naturel (SEO) et à générer du traffic grâce aux réseaux sociaux. La suite, c'est vous et votre talent dans votre <i class="material-icons">favorite</i>de métier </p>
 		</div>		
 	</section>
 	<section class="section-header-light" id="section-coop">
@@ -33,7 +33,7 @@
 				<img class="center align" src="assets/img/picto-coop-tape.png" alt="" width="150px">
 				<h1>Un accompagnement personnalisé</h1>
 				<h2>Vous aider à monter en compétence pour obtenir les meilleurs résultats </h2>
-				<p>Les besoins en terme de communication ne sont pas les mêmes pour tous. Nous vous proposons des formations individuelles aux réseaux sociaux et à la maintenance de votre site web en fonction de votre niveau. </p>
+				<p>Les besoins en terme de communication ne sont pas les mêmes pour tous. Nous vous proposons <span class="bold">des formations individuelles aux réseaux sociaux et à la maintenance de votre site web en fonction de votre niveau.</span> </p>
 					<div class="row ">
 	  					<div class="col s12 m12 center-align">
 	       				<div class="card-panel teal">
@@ -57,7 +57,7 @@
 
 
 
-				<p><img class="float right" src="assets/img/picto-perso.png" alt="" width="150px">Nous vous accompagnons dès de le debut de votre aventure entrepreneuriale. Commencer petit et faites évoluer votre communication en même temps que votre business. Ajoutez des pages à votre site vitrine, démarrer un blog, être présent sur un nouveau réseau social sont des pas que vous pouvez réaliser quand vous avez validé votre projet.<br> Pour rendre le tout abordable pour les porteurs de projets, nous vous avons concocté des bundles au plus proche de vos besoins : </p>
+				<p><img class="float right" src="assets/img/picto-perso.png" alt="" width="150px">Nous vous accompagnons dès de le debut de votre aventure entrepreneuriale. <span class="bold">Commencez petit et faites évoluer votre communication</span> en même temps que votre business. Ajoutez des pages à votre site vitrine, démarrer un blog, être présent sur un nouveau réseau social sont des pas que vous pouvez réaliser quand vous avez validé votre projet.<br> Pour rendre le tout abordable pour les porteurs de projets, <span class="bold">nous vous avons concocté des offres au plus proche de vos besoins </span>: </p>
 			</div>
 	
 

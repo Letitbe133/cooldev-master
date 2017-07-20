@@ -42,26 +42,7 @@
 </head>
 <body>
 
-<!--	<div id="topScroll" class="navbar-fixed">
-		<nav>
-          <div class="nav-wrapper">
-              <a data-target="#" class="scrollTo" href="#"class="brand-logo left"><img class="responsive-img" src="assets/img/logo-v2.png" alt="logo cooldev" ></a>
-              <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons md-36">menu</i></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-				    <li><a data-target="#offre" class="tape scrollTo" href="offre.php">/ Ce qu'on peut faire ensemble</a></li>
-                <li><a data-target="#motto" class="tape scrollTo" href="#motto">/ Histoires vraies</a></li>
-                <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ On s'appelle ?</a></li>
-
-              </ul>
-           		<ul class="side-nav" id="mobile-menu">
-	           	  <li><a data-target="#offre" class="tape scrollTo" href="offre.php">/ Offre</a></li>
-	              <li><a data-target="#motto" class="tape scrollTo" href="#motto">/ A propos</a></li>
-	              <li><a data-target="#section-contact" class="tape scrollTo" href="#section-contact">/ Contact</a></li>
-            	</ul>
-      		</div>
-          </nav>
-    </div>-->
- <?php
+<?php
 	include('private/view/nav.php');
 ?>
 	<header class="row valign-wrapper">
@@ -70,7 +51,6 @@
 					<h1>Tout ce que vous<br> n'avez jamais osé faire <br>sur le web</h1>	
                 <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
       </div>
-  
     </div>
     <div class="overlay"></div>
 	</header>
@@ -80,7 +60,7 @@
 
 <section id="offre">
 	<div class="container">
-	<h2 class="center-align">Nous accompagnons les entreprises dans leur <br>présence numérique.<!--<br><br><span class="tape">Le web n'attend que vous ;)</span>--></h2>
+	<h2 class="center-align">Nous accompagnons les entreprises dans leur <br>présence numérique.</h2>
                 
   	<div class="row">
 			<div class="picto-offre col s12 m12 l4 center-align">
@@ -200,8 +180,8 @@ En diminuant le temps de développement, <mark>nous pouvons rendre abordable ce 
 ?>
 	</div>
  </div>
- 
 </section>
+<!----------------------------CARDS OFFRE---------------------------------------------->
 
 <section id="section-main-offer">
 <div class="row">

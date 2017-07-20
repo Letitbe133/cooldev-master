@@ -14,7 +14,7 @@ $(function(){
 
   // Initialisation menu mobile
   $(".button-collapse").sideNav({
-    menuWidth: 200,
+    menuWidth: 300,
     closeOnClick: true
   });
 
