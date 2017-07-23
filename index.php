@@ -48,8 +48,9 @@
 	<header class="row valign-wrapper">
 		<div id="header" class="container center-align">
 		<div class="col s12 m12 l12">
-					<h1>Tout ce que vous<br> n'avez jamais osé faire <br>sur le web</h1>	
-                <img data-target="#offre" class="scrollTo" src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/>
+					<h1>Faites grandir vos idées <br>grâce au web </h1>
+					<p class="col s6 offset-s3 m4 offset-m4 tape">On est là !</p>	
+                <div class="col s12 center-align"><img data-target="#offre" class="scrollTo " src="assets/img/arrow.png" alt="Faites défiler pour en savoir plus"/></div>
       </div>
     </div>
     <div class="overlay"></div>

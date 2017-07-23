@@ -19,7 +19,7 @@
 				<div class="row ">
   					<div class="col s12  ">
        				<div class="card-panel teal">
-          				<h3 ><img class="float left"src="assets/img/picto-responsive.png" alt="" width="100px">L'expérience client au coeur de	votre stratégie de communication</h2>
+          				<h3 class="white-text"><img class="float left"src="assets/img/picto-responsive.png" alt="" width="100px">L'expérience client au coeur de	votre stratégie de communication</h2>
         				</div>
      	 			</div>
       		</div>
@@ -37,7 +37,7 @@
 					<div class="row ">
 	  					<div class="col s12 m12 center-align">
 	       				<div class="card-panel teal">
-	          				<h3 >Découvrez toutes nos formations web dédiées aux débutants<h3>
+	          				<h3 class="white-text">Découvrez toutes nos formations web dédiées aux débutants<h3>
 	          			
 	          				<a href="formation-web.php"><img  src="assets/img/school-dev.png" alt="school dev" width="150px"></a>
 	          			

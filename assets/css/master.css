@@ -97,6 +97,7 @@ header h2{
     background-size: cover;
     background-size: 100% 100%;
     color:#00101a;
+    padding: 0;
   
    
 
@@ -370,9 +371,12 @@ padding: 20px!important;
 #offre {
 	background-color: white;
 	margin-top: 80px;
-}
+	}
+#offre h2 {
+		margin-bottom: 70px;
+}	
 #offre img {
-	height: 150px;
+	height: 250px;
 }
 #offre p {
 	color:#333333;
@@ -478,6 +482,10 @@ padding: 20px!important;
 }
  .school-content ul {
 
+ }
+ 
+ .works h1, h2, h3, h4, p{
+	color:grey; 
  }
 /************************************************************************************/
 #section-main-offer {
