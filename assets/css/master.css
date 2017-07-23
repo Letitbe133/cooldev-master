@@ -357,6 +357,10 @@ padding: 15px!important;
 	height: 150px;
 padding: 20px!important;	
 }
+.card-header img {
+		
+		height: 100px;
+	}
 .picto-offre{
 	
 	padding-left: 50px!important;
