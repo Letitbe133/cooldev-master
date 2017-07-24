@@ -1,4 +1,4 @@
-	
+
 <?php
   require_once('contact.php');
 ?>
@@ -25,7 +25,7 @@
       		</div>
  		</div>
 			<p class="no-margin-bottom"><span class="bold">Nous réalisons des sites web responsives accessibles sur tous supports et adaptés à votre projet </span>: site vitrine, blog, site internet sur mesure. Nous vous aidons à optimiser le contenu pour un référencement naturel (SEO) et à générer du traffic grâce aux réseaux sociaux. La suite, c'est vous et votre talent dans votre <i class="material-icons">favorite</i>de métier </p>
-		</div>		
+		</div>
 	</section>
 	<section class="section-header-light" id="section-coop">
 		<div class="container col s12 ">
@@ -38,9 +38,9 @@
 	  					<div class="col s12 m12 center-align">
 	       				<div class="card-panel teal">
 	          				<h3 class="white-text">Découvrez toutes nos formations web dédiées aux débutants<h3>
-	          			
+
 	          				<a href="formation-web.php"><img  src="assets/img/school-dev.png" alt="school dev" width="150px"></a>
-	          			
+
 	        				</div>
 	     	 			</div>
 	      		</div>
@@ -59,13 +59,13 @@
 
 				<p><img class="float right" src="assets/img/picto-perso.png" alt="" width="150px">Nous vous accompagnons dès de le debut de votre aventure entrepreneuriale. <span class="bold">Commencez petit et faites évoluer votre communication</span> en même temps que votre business. Ajoutez des pages à votre site vitrine, démarrer un blog, être présent sur un nouveau réseau social sont des pas que vous pouvez réaliser quand vous avez validé votre projet.<br> Pour rendre le tout abordable pour les porteurs de projets, <span class="bold">nous vous avons concocté des offres au plus proche de vos besoins </span>: </p>
 			</div>
-	
+
 
 	<div class="container" id="budget">
 <?php
 	include('private/view/offer-cards.php');
 ?>
-  	
+
 	</div>
 </section>
 
@@ -82,4 +82,5 @@
 <?php
 	include('private/view/footer.php');
 ?>
+
 </body>
