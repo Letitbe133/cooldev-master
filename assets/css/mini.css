@@ -1,4 +1,4 @@
-html, body {
+/*html, body {
   margin: 0;
   padding: 0;
   color: black;
@@ -33,7 +33,7 @@ nav ul li {
 	padding-right: 15px;
 }
 header h1{
-	font-size: 3.5rem;
+	font-size: 3.2rem;
 	text-transform: uppercase;
 	font-weight: 100;
 	color: white;
@@ -64,7 +64,7 @@ color: black;
 
 /***********************************MEDIA QUERIES<3********************************************/
 
-@media all and (min-width: 601px){
+/*@media all and (min-width: 601px){
 	
 	header h1{
 	font-size: 5rem;
@@ -82,4 +82,4 @@ color: black;
 	 header h1{
 	font-size: 7rem;
   }
-}
+}*/

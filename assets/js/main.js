@@ -14,7 +14,7 @@ $(function(){
 
   // Initialisation menu mobile
   $(".button-collapse").sideNav({
-    menuWidth: 200,
+    menuWidth: 300,
     closeOnClick: true
   });
 
@@ -34,8 +34,8 @@ $(function(){
 
   // display flèche scroll top
     $(window).scroll(function() {
-    var headerHeight = $('header').outerHeight();
-    if ($(this).scrollTop() > headerHeight)
+    var winHeight = $(window).outerHeight();
+    if ($(this).scrollTop() > winHeight)
      {
         $('#up').fadeIn();
      }
